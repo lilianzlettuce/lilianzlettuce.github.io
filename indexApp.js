@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //data for each project container
     let projects = {
         spaceguy: {
-            color: "rgb(255, 94, 228)",
+            color: "rgb(94, 231, 255)",
             currentDotNum: 1,
         },
         cero: {
