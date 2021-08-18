@@ -8,18 +8,18 @@ let projects = {
     date: '',
     descrip: '',
   },
+  spaceguy: {
+    name: 'spaceguy',
+    title: 'Space Guy',
+    date: 'July 2021',
+    descrip: 'Original 2D platformer game developed with a team of 5 on Unity. Final project for CMU\'s National High School Game Academy program.',
+  },
   cero: {
     name: 'cero',
     title: 'Cero',
     date: 'June 2021',
     award: '1st Place @ Hydrangea Hacks',
     descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine—complete with original sprites, tilesets, and maps.',
-  },
-  bloog: {
-    name: 'bloog',
-    title: 'BLOOG',
-    date: 'April - June 2021',
-    descrip: 'Flashcard web app that lets users create, study, and share sets of cards. (Basically knockoff quizlet.) Uses react for frontend and firebase for authentication and storage.',
   },
   linescape: {
     name: 'linescape',
@@ -48,7 +48,7 @@ let projects = {
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.',
   },
 }
-let projectArr = [projects.cero, projects.bloog, projects.linescape, projects.veracity, projects.snowball, projects.two]
+let projectArr = [projects.spaceguy, projects.cero, projects.linescape, projects.veracity, projects.snowball, projects.two]
 
 class Project extends React.Component {
   constructor(props) {

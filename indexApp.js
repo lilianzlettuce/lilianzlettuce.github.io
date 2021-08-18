@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector("#cover").style.display = "none" 
     }, 4100) 
 
-    let projectNames = ['cero', 'bloog', 'linescape', 'veracity', 'snowball', 'two']
+    let projectNames = ['spaceguy', 'cero', 'linescape', 'veracity', 'snowball', 'two']
 
     //scroll animations
     window.onscroll = function() {
@@ -181,13 +181,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     //data for each project container
     let projects = {
+        spaceguy: {
+            color: "rgb(255, 94, 228)",
+            currentDotNum: 1,
+        },
         cero: {
             color: "black",
             currentDotNum: 1
-        },
-        bloog: {
-            color: "rgb(103, 219, 151)",
-            currentDotNum: 1,
         },
         linescape: {
             color: "rgb(103, 126, 255)",
@@ -215,8 +215,8 @@ document.addEventListener("DOMContentLoaded", () => {
         let p 
         if (ID === 'cero-hover') {
             p = "cero" 
-        } else if (ID === 'bloog-hover') {
-            window.open("https://bloog-ef82f.web.app/", "_blank") 
+        } else if (ID === 'spaceguy-hover') {
+            window.open("https://youtu.be/fS6nlsP51Yw", "_blank") 
             return 
         } else if (ID === "linescape-hover"){
             p = "linescape-vh" 
@@ -264,8 +264,8 @@ document.addEventListener("DOMContentLoaded", () => {
         let p 
         if (id === 'cero-icon') {
             p = "cero" 
-        } else if (id === 'bloog-icon') {
-            p = 'bloog'
+        } else if (id === 'spaceguy-icon') {
+            p = 'spaceguy'
         } else if (id === "linescape-icon"){
             p = "linescape" 
         } else if (id === "veracity-icon"){
@@ -314,8 +314,8 @@ document.addEventListener("DOMContentLoaded", () => {
         let p 
         if (id.includes('cero')) {
             p = "cero" 
-        } else if (id.includes("bloog")){
-            p = "bloog" 
+        } else if (id.includes("spaceguy")){
+            p = "spaceguy" 
         } else if (id.includes("linescape")){
             p = "linescape" 
         } else if (id.includes("veracity")){

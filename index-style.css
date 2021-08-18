@@ -570,6 +570,29 @@ div{
     line-height: 2.7rem;
 }
 
+/* space guy */
+
+#spaceguy {
+    background-image: url(img/spaceguypic1.png);
+}
+
+#spaceguy2{
+    background-image: url(img/spaceguypic2.png);
+}
+
+#spaceguy3{
+    background-image: url(img/spaceguypic3.png);
+}
+
+#spaceguy-dot1{
+    border: none;
+    background-color: rgb(255, 94, 228);
+}
+
+#spaceguy-hex{
+    transform: rotate(100deg);
+}
+
 /* cero */
 
 #cero{
@@ -591,29 +614,6 @@ div{
 
 #cero-hex{
     transform: rotate(150deg);
-}
-
-/* bloog */
-
-#bloog{
-    background-image: url(img/bloogpic1.png);
-}
-
-#bloog2{
-    background-image: url(img/bloogpic2.png);
-}
-
-#bloog3{
-    background-image: url(img/bloogpic3.png);
-}
-
-#bloog-dot1{
-    border: none;
-    background-color: rgb(103, 219, 151);
-}
-
-#bloog-hex{
-    transform: rotate(100deg);
 }
 
 /* linescape */
