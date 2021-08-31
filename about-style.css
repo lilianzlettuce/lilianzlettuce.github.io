@@ -96,12 +96,12 @@ div{
     }
 }
 
-.faded, #projects-link {
+.faded {
     color: rgb(148, 148, 148);
 }
 
-#projects-link:hover {
-    color: rgb(50, 146, 255);
+#about-link {
+    color: black;
 }
 
 .about-container-2{

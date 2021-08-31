@@ -63,16 +63,16 @@ div{
     font-size: 1.6rem;
 }
 
-.faded, #about-link{
+.faded {
     color: rgb(148, 148, 148);
     cursor: pointer;
 }
 
-#about-link:hover {
-    color: rgb(50, 146, 255);
+#projects-link {
+    color: black;
 }
 
-.home-flex-main{
+.home-flex-main {
     display: flex;
     padding: 0rem 0rem 10rem 0rem;
     justify-content: space-between;

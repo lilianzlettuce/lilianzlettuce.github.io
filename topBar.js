@@ -41,12 +41,17 @@ var TopBar = function (_React$Component) {
                         { id: "menu" },
                         React.createElement(
                             "a",
-                            { id: "projects-link", href: "https://lilianzlettuce.github.io/#projects" },
+                            { className: "faded", id: "projects-link", href: "https://lilianzlettuce.github.io/#projects" },
                             "Projects"
                         ),
                         React.createElement(
                             "a",
-                            { id: "about-link", href: "https://lilianzlettuce.github.io/about" },
+                            { className: "faded", id: "eng-projects-link", href: "https://lilianzlettuce.github.io/engineering-projects" },
+                            "Engineering Projects"
+                        ),
+                        React.createElement(
+                            "a",
+                            { className: "faded", id: "about-link", href: "https://lilianzlettuce.github.io/about" },
                             "About"
                         ),
                         React.createElement(
