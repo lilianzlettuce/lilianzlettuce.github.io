@@ -62,40 +62,6 @@ div{
     font-size: 1.6rem;
 }
 
-.frag-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.frag{
-    font-size: 9rem;
-    opacity: 0%;
-}
-
-.about{
-    display: flex;
-    justify-content: center;
-    padding: 0% 6%;
-    margin-bottom: 240px;
-}
-
-.about-container-1{
-    color: black;
-    width: 60%;
-    max-width: 680px;
-    padding: 10px 40px;
-    animation: fadeIn ease 3s;
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .faded {
     color: rgb(148, 148, 148);
 }
@@ -104,3 +70,22 @@ div{
     color: black;
 }
 
+.section-title{
+    padding: 0 15rem;
+    font-size: 2.8rem;
+    font-weight: 300;
+    position: relative;
+    transition: top 1s, opacity 2s;
+}
+
+.eng-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+
+#placeholder-img {
+    background-image: url(img/pepesaur.jpeg);
+    background-size: contain;
+}

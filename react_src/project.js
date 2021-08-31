@@ -71,19 +71,19 @@ class Project extends React.Component {
                   </div>
               </div>
               <div className="descrip-text">
-                  <h4 className="title">{project.title}</h4>
-                  <h6 className="date">{project.date}</h6>
-                  {project.award && <div className="award" id={"award-" + project.name}>{project.award}</div>}
-                  <p className="descrip">
-                    {project.descrip}
-                    {project.name == 'veracity' && <span><a style={{fontSize: 1.6 + 'rem', color: 'rgb(255, 136, 115)'}} href="https://youtu.be/gMbwmaDJzTM" target="_blank">here</a> to see a demo video.</span>}
-                  </p>
+                <h4 className="title">{project.title}</h4>
+                <h6 className="date">{project.date}</h6>
+                {project.award && <div className="award" id={"award-" + project.name}>{project.award}</div>}
+                <p className="descrip">
+                  {project.descrip}
+                  {project.name == 'veracity' && <span><a style={{fontSize: 1.6 + 'rem', color: 'rgb(255, 136, 115)'}} href="https://youtu.be/gMbwmaDJzTM" target="_blank">here</a> to see a demo video.</span>}
+                </p>
               </div>
             </div>
             <div className="image" id={project.name}>
-                <div id={project.name + "2"} className="image-over"></div>
-                <div id={project.name + "3"} className="image-over image-over2"></div>
-                <div id={project.name + "-hover"} className="white-hover"></div>
+              <div id={project.name + "2"} className="image-over"></div>
+              <div id={project.name + "3"} className="image-over image-over2"></div>
+              <div id={project.name + "-hover"} className="white-hover"></div>
             </div>
           </div>
         )}
