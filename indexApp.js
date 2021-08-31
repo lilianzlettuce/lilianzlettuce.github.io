@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (ID === 'cero-hover') {
             p = "cero" 
         } else if (ID === 'spaceguy-hover') {
-            window.open("https://youtu.be/fS6nlsP51Yw", "_blank") 
+            window.open("https://drive.google.com/drive/folders/1c22fXSqVcI5arUUH38jI5iamKhRxCMLj?usp=sharing", "_blank") 
             return 
         } else if (ID === "linescape-hover"){
             p = "linescape-vh" 

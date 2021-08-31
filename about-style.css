@@ -100,6 +100,10 @@ div{
     color: rgb(148, 148, 148);
 }
 
+#projects-link:hover {
+    color: rgb(50, 146, 255);
+}
+
 .about-container-2{
     width: 40%;
     height: calc(600px / 1vw);
