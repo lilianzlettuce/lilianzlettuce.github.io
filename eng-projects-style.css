@@ -21,11 +21,6 @@ body{
 
 }
 
-.section{
-    margin: 0 auto;
-    padding: 40px 100px;
-}
-
 p{
     font-weight: 250;
     line-height: 3rem;
@@ -78,14 +73,74 @@ div{
     transition: top 1s, opacity 2s;
 }
 
+.proj-container {
+    margin: 50px auto;
+    padding: 40px 100px;
+    width: 80%;
+    height: auto;
+    min-height: 200px;
+    border-radius: 20px;
+    transition: .6s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.proj-container:hover {
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+
 .eng-img {
     background-size: cover;
     background-repeat: no-repeat;
-    width: 500px;
+    width: 45%;
+    max-width: 500px;
     height: 300px;
+    border-radius: 5px;
 }
 
 #placeholder-img {
-    background-image: url(img/pepesaur.jpeg);
-    background-size: contain;
+    background-image: url(img/pepesaur.png);
+}
+
+.descrip-container {
+    width: 45%;
+}
+
+.title{
+    font-size: 5rem;
+    margin: 0;
+}
+
+.type{
+    text-transform: uppercase;
+    margin: 1.5rem 0rem;
+    font-weight: 300;
+    color:rgb(148, 148, 148);
+}
+
+.date{
+    font-size: 1.7rem;
+    color:rgb(55, 118, 255);
+    font-weight: 300;
+    margin: 1rem 0rem;
+}
+
+.award{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0 5px 0;
+    cursor: pointer;
+    transition: 1s ease;
+    color: rgb(255, 120, 96);
+}
+.award:hover {
+    color: rgb(255, 120, 96);
+}
+
+.descrip{
+    font-weight: 300;
+    margin: 0;
 }
