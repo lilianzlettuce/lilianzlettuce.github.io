@@ -61,7 +61,7 @@ var TopBar = function (_React$Component) {
                         ),
                         React.createElement(
                             "a",
-                            { className: "faded", href: "LilianZhaoResumeAug2021.pdf", target: "_blank" },
+                            { className: "faded", href: "LilianZhaoResumeNov2021.pdf", target: "_blank" },
                             "Resume"
                         )
                     )
