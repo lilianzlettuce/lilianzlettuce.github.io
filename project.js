@@ -16,6 +16,12 @@ var projects = {
     date: '',
     descrip: ''
   },
+  mlhacks: {
+    name: 'mlhacks',
+    title: 'ML Hacks',
+    date: 'In Progress',
+    descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students. Be there this June!'
+  },
   spaceguy: {
     name: 'spaceguy',
     title: 'Space Guy',
@@ -56,7 +62,7 @@ var projects = {
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.'
   }
 };
-var projectArr = [projects.spaceguy, projects.cero, projects.linescape, projects.veracity, projects.snowball, projects.two];
+var projectArr = [projects.mlhacks, projects.spaceguy, projects.cero, projects.linescape, projects.veracity, projects.snowball, projects.two];
 
 var Project = function (_React$Component) {
   _inherits(Project, _React$Component);

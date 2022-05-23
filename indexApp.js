@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector("#cover").style.display = "none" 
     }, 4100) 
 
-    let projectNames = ['spaceguy', 'cero', 'linescape', 'veracity', 'snowball', 'two']
+    let projectNames = ['mlhacks', 'spaceguy', 'cero', 'linescape', 'veracity', 'snowball', 'two']
 
     //scroll animations
     window.onscroll = function() {
@@ -181,6 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //data for each project container
     let projects = {
+        mlhacks: {
+            color: "rgb(255, 135, 249)",
+            currentDotNum: 1,
+        },
         spaceguy: {
             color: "rgb(94, 231, 255)",
             currentDotNum: 1,
@@ -217,6 +221,9 @@ document.addEventListener('DOMContentLoaded', () => {
             p = "cero" 
         } else if (ID === 'spaceguy-hover') {
             window.open("https://drive.google.com/drive/folders/1c22fXSqVcI5arUUH38jI5iamKhRxCMLj?usp=sharing", "_blank") 
+            return 
+        } else if (ID === 'mlhacks-hover') {
+            window.open("https://mlhacks2022.vercel.app/", "_blank") 
             return 
         } else if (ID === "linescape-hover"){
             p = "linescape-vh" 
@@ -266,6 +273,8 @@ document.addEventListener('DOMContentLoaded', () => {
             p = "cero" 
         } else if (id === 'spaceguy-icon') {
             p = 'spaceguy'
+        } else if (id === 'mlhacks-icon') {
+            p = 'mlhacks'
         } else if (id === "linescape-icon"){
             p = "linescape" 
         } else if (id === "veracity-icon"){
@@ -316,6 +325,8 @@ document.addEventListener('DOMContentLoaded', () => {
             p = "cero" 
         } else if (id.includes("spaceguy")){
             p = "spaceguy" 
+        } else if (id.includes("mlhacks")){
+            p = "mlhacks" 
         } else if (id.includes("linescape")){
             p = "linescape" 
         } else if (id.includes("veracity")){

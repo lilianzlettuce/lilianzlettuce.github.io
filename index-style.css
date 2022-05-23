@@ -574,6 +574,29 @@ div{
     line-height: 2.7rem;
 }
 
+/* mlhacks */
+
+#mlhacks {
+    background-image: url(img/mlhackspic1.png);
+}
+
+#mlhacks2{
+    background-image: url(img/mlhackspic2.png);
+}
+
+#mlhacks3{
+    background-image: url(img/mlhackspic3.png);
+}
+
+#mlhacks-dot1{
+    border: none;
+    background-color: rgb(255, 144, 249);
+}
+
+#mlhacks-hex{
+    transform: rotate(100deg);
+}
+
 /* space guy */
 
 #spaceguy {
