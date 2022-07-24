@@ -193,3 +193,10 @@ div{
     font-weight: 300;
     margin: 0;
 }
+
+.spoiler {
+    background-color: black;
+}
+.spoiler:hover {
+    background-color: white;
+}

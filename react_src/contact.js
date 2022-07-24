@@ -15,7 +15,7 @@ class Contact extends React.Component {
                         <a className="contact-bottom" target="_blank" href="https://github.com/lilianzlettuce">—Github</a> 
                         <a className="contact-bottom" target="_blank" href="https://www.linkedin.com/in/lilian-zhao/">—LinkedIn</a>
                         <a className="contact-bottom lettuce" id="lettuce-bottom" target="_blank" href="https://lilianzlettuce.github.io/lettuce">🥬</a>
-                        <p id="bottom-text">Made with the blood of a thousand snails | 2021</p>
+                        <p id="bottom-text">Made with the blood of a thousand snails | 2022</p>
                     </div>
                 </div>
 
