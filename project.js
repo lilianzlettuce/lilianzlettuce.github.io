@@ -19,8 +19,8 @@ var projects = {
   mlhacks: {
     name: 'mlhacks',
     title: 'ML Hacks',
-    date: 'In Progress',
-    descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students. Be there this June!'
+    date: 'June 2022',
+    descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students.'
   },
   spaceguy: {
     name: 'spaceguy',
