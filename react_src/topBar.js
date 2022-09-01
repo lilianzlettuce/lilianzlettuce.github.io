@@ -10,7 +10,7 @@ class TopBar extends React.Component {
             <div>
                 <div className="section top-bar" id="top">
                     <div className="name">
-                        <a id="name" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">LILIAN ZHAO</a>
+                        <a id="name" target="_blank" href="https://lilianzlettuce.github.io/thing/">LILIAN ZHAO</a>
                         <canvas className="canvas" width="70" height="60"></canvas>
                     </div>
                     <div id="menu">
