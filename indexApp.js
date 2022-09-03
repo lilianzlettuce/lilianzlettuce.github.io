@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector("#cover").style.display = "none" 
     }, 4100) 
 
-    let projectNames = ['mlhacks', 'spaceguy', 'cero', 'linescape', 'veracity', 'snowball', 'two']
+    let projectNames = ['mlhacks', 'spaceguy', 'cero', 'linescape', 'snowball', 'two']
 
     //scroll animations
     window.onscroll = function() {
@@ -197,10 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
             color: "rgb(103, 126, 255)",
             currentDotNum: 1
         },
-        veracity: {
-            color: "rgb(106, 208, 255)",
-            currentDotNum: 1,
-        },
         snowball: {
             color: "rgb(86, 40, 255)",
             currentDotNum: 1
@@ -227,8 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return 
         } else if (ID === "linescape-hover"){
             p = "linescape-vh" 
-        } else if (ID === "veracity-hover"){
-            p = "veracity" 
         } else if (ID === "snowball-hover"){
             window.open("https://devpost.com/software/dodoplier", "_blank") 
             return 
@@ -277,8 +271,6 @@ document.addEventListener('DOMContentLoaded', () => {
             p = 'mlhacks'
         } else if (id === "linescape-icon"){
             p = "linescape" 
-        } else if (id === "veracity-icon"){
-            p = "veracity" 
         } else if (id === "snowball-icon"){
             p = "snowball" 
         } else {
@@ -329,8 +321,6 @@ document.addEventListener('DOMContentLoaded', () => {
             p = "mlhacks" 
         } else if (id.includes("linescape")){
             p = "linescape" 
-        } else if (id.includes("veracity")){
-            p = "veracity" 
         } else if (id.includes("snowball")){
             p = "snowball" 
         } else {

@@ -32,7 +32,7 @@ var TopBar = function (_React$Component) {
                         React.createElement(
                             "a",
                             { id: "name", target: "_blank", href: "https://lilianzlettuce.github.io/thing/" },
-                            "LILIAN ZHAO"
+                            "lilian zhao"
                         ),
                         React.createElement("canvas", { className: "canvas", width: "70", height: "60" })
                     ),

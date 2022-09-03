@@ -23,13 +23,16 @@ document.addEventListener("DOMContentLoaded", () => {
         addTo: illo,
         width: 40,
         height: 40, 
-        depth: 40,
-        stroke: 25,
+        depth: 20,
+        stroke: 10,
         leftFace: "rgb(200,200,200)",
         rightFace: "rgb(0,0,0)",
         topFace: "rgb(255, 101, 101)",
         bottomFace: "rgb(151, 243, 255)",
     })
+
+    illo.rotate.y = 10
+    illo.rotate.x = 98
 
     illo.updateRenderGraph();
 

@@ -666,29 +666,6 @@ div{
     transform: rotate(50deg);
 }
 
-/* veracity */
-
-#veracity{
-    background-image: url(img/veracitypic1.png);
-}
-
-#veracity2{
-    background-image: url(img/veracitypic2.png);
-}
-
-#veracity3{
-    background-image: url(img/veracitypic3.png);
-}
-
-#veracity-dot1{
-    border: none;
-    background-color: rgb(106, 208, 255);
-}
-
-#veracity-hex{
-    transform: rotate(10deg);
-}
-
 /* snowball */
 
 #snowball{

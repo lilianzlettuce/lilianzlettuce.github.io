@@ -42,12 +42,6 @@ var projects = {
     award: 'Best Design @ Superposition V',
     descrip: 'SVG drawing tool that provides an interactive visual interface designed to simplify the process of creating line animations for websites.'
   },
-  veracity: {
-    name: 'veracity',
-    title: 'Veracity',
-    date: 'Nov 2020',
-    descrip: 'Charity-searching web app that assists users in determining the reliability of nonprofit organizations. May be dead due to API key expiration. Click '
-  },
   snowball: {
     name: 'snowball',
     title: 'Snowball',
@@ -62,7 +56,7 @@ var projects = {
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.'
   }
 };
-var projectArr = [projects.mlhacks, projects.spaceguy, projects.cero, projects.linescape, projects.veracity, projects.snowball, projects.two];
+var projectArr = [projects.mlhacks, projects.spaceguy, projects.cero, projects.linescape, projects.snowball, projects.two];
 
 var Project = function (_React$Component) {
   _inherits(Project, _React$Component);
@@ -120,17 +114,7 @@ var Project = function (_React$Component) {
                 React.createElement(
                   'p',
                   { className: 'descrip' },
-                  project.descrip,
-                  project.name == 'veracity' && React.createElement(
-                    'span',
-                    null,
-                    React.createElement(
-                      'a',
-                      { style: { fontSize: 1.6 + 'rem', color: 'rgb(255, 136, 115)' }, href: 'https://youtu.be/gMbwmaDJzTM', target: '_blank' },
-                      'here'
-                    ),
-                    ' to see a demo video.'
-                  )
+                  project.descrip
                 )
               )
             ),

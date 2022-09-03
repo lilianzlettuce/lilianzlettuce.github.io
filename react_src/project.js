@@ -34,12 +34,6 @@ let projects = {
     award: 'Best Design @ Superposition V',
     descrip: 'SVG drawing tool that provides an interactive visual interface designed to simplify the process of creating line animations for websites.',
   },
-  veracity: {
-    name: 'veracity',
-    title: 'Veracity',
-    date: 'Nov 2020',
-    descrip: 'Charity-searching web app that assists users in determining the reliability of nonprofit organizations. May be dead due to API key expiration. Click ',
-  },
   snowball: {
     name: 'snowball',
     title: 'Snowball',
@@ -54,7 +48,7 @@ let projects = {
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.',
   },
 }
-let projectArr = [projects.mlhacks, projects.spaceguy, projects.cero, projects.linescape, projects.veracity, projects.snowball, projects.two]
+let projectArr = [projects.mlhacks, projects.spaceguy, projects.cero, projects.linescape, projects.snowball, projects.two]
 
 class Project extends React.Component {
   constructor(props) {
@@ -82,7 +76,6 @@ class Project extends React.Component {
                 {project.award && <div className="award" id={"award-" + project.name}>{project.award}</div>}
                 <p className="descrip">
                   {project.descrip}
-                  {project.name == 'veracity' && <span><a style={{fontSize: 1.6 + 'rem', color: 'rgb(255, 136, 115)'}} href="https://youtu.be/gMbwmaDJzTM" target="_blank">here</a> to see a demo video.</span>}
                 </p>
               </div>
             </div>
