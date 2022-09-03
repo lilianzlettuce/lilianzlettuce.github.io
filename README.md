@@ -1,2 +1,3 @@
 # lilianzlettuce.github.io
-My personal website, built from scratch with html/css & javascript (and some react)
+my personal website
+meant to induce existential crisis
