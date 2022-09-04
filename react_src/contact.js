@@ -11,7 +11,7 @@ class Contact extends React.Component {
                 <div id="footer-container">
                     <div className="section-title" id="footer-title">Contact <a href="#top" id="contactBtn2">↑</a></div>
                     <div className="section" id="footer">
-                        <a className="contact-bottom" target="_blank" href="mailto:milanzq309@gmail.com">—Email</a> 
+                        <a className="contact-bottom" target="_blank" href="mailto:zhao1268@purdue.edu">—Email</a> 
                         <a className="contact-bottom" target="_blank" href="https://github.com/lilianzlettuce">—Github</a> 
                         <a className="contact-bottom" target="_blank" href="https://www.linkedin.com/in/lilian-zhao/">—LinkedIn</a>
                         <a className="contact-bottom lettuce" id="lettuce-bottom" target="_blank" href="https://lilianzlettuce.github.io/lettuce">🥬</a>

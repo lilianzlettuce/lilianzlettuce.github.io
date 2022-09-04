@@ -41,7 +41,7 @@ var Contact = function (_React$Component) {
                         { className: "section", id: "footer" },
                         React.createElement(
                             "a",
-                            { className: "contact-bottom", target: "_blank", href: "mailto:milanzq309@gmail.com" },
+                            { className: "contact-bottom", target: "_blank", href: "mailto:zhao1268@purdue.edu" },
                             "\u2014Email"
                         ),
                         React.createElement(
