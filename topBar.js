@@ -42,22 +42,17 @@ var TopBar = function (_React$Component) {
                         React.createElement(
                             "a",
                             { className: "faded", id: "projects-link", href: "https://lilianzlettuce.github.io/#projects" },
-                            "Projects"
+                            "Work"
                         ),
                         React.createElement(
                             "a",
                             { className: "faded", id: "eng-projects-link", href: "https://lilianzlettuce.github.io/stuff" },
-                            "Stuff"
+                            "Fun"
                         ),
                         React.createElement(
                             "a",
                             { className: "faded", id: "about-link", href: "https://lilianzlettuce.github.io/about" },
                             "About"
-                        ),
-                        React.createElement(
-                            "a",
-                            { className: "faded", href: "#footer", id: "contact-btn" },
-                            "Contact"
                         )
                     )
                 )
