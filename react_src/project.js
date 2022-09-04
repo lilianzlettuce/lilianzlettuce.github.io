@@ -14,18 +14,18 @@ let projects = {
     date: 'June 2022',
     descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students.'
   },
-  spaceguy: {
-    name: 'spaceguy',
-    title: 'Space Guy',
-    date: 'July 2021',
-    descrip: 'Original 2D platformer game developed with a team of 5 on Unity. Final project for CMU\'s National High School Game Academy program.',
-  },
   cero: {
     name: 'cero',
     title: 'Cero',
     date: 'June 2021',
     award: '1st Place @ Hydrangea Hacks',
     descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine—complete with original sprites, tilesets, and maps.',
+  },
+  bloog: {
+    name: 'bloog',
+    title: 'BLOOG',
+    date: 'May 2021',
+    descrip: 'Knockoff Quizlet. Built with React/Redux/Firebase.',
   },
   linescape: {
     name: 'linescape',
@@ -48,7 +48,7 @@ let projects = {
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.',
   },
 }
-let projectArr = [projects.mlhacks, projects.spaceguy, projects.cero, projects.linescape, projects.snowball, projects.two]
+let projectArr = [projects.mlhacks, projects.cero, projects.bloog, projects.linescape, projects.snowball, projects.two]
 
 class Project extends React.Component {
   constructor(props) {

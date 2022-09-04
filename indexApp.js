@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector("#cover").style.display = "none" 
     }, 4100) 
 
-    let projectNames = ['mlhacks', 'spaceguy', 'cero', 'linescape', 'snowball', 'two']
+    let projectNames = ['mlhacks', 'cero', 'bloog', 'linescape', 'snowball', 'two']
 
     //scroll animations
     window.onscroll = function() {
@@ -185,13 +185,13 @@ document.addEventListener('DOMContentLoaded', () => {
             color: "rgb(255, 135, 249)",
             currentDotNum: 1,
         },
-        spaceguy: {
-            color: "rgb(94, 231, 255)",
-            currentDotNum: 1,
-        },
         cero: {
             color: "black",
             currentDotNum: 1
+        },
+        bloog: {
+            color: "rgb(94, 231, 255)",
+            currentDotNum: 1,
         },
         linescape: {
             color: "rgb(103, 126, 255)",
@@ -215,8 +215,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let p 
         if (ID === 'cero-hover') {
             p = "cero" 
-        } else if (ID === 'spaceguy-hover') {
-            window.open("https://drive.google.com/drive/folders/1c22fXSqVcI5arUUH38jI5iamKhRxCMLj?usp=sharing", "_blank") 
+        } else if (ID === 'bloog-hover') {
+            window.open("https://bloog-ef82f.web.app/", "_blank") 
             return 
         } else if (ID === 'mlhacks-hover') {
             window.open("https://mlhacks2022.vercel.app/", "_blank") 
@@ -265,8 +265,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let p 
         if (id === 'cero-icon') {
             p = "cero" 
-        } else if (id === 'spaceguy-icon') {
-            p = 'spaceguy'
+        } else if (id === 'bloog-icon') {
+            p = 'bloog'
         } else if (id === 'mlhacks-icon') {
             p = 'mlhacks'
         } else if (id === "linescape-icon"){
@@ -315,8 +315,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let p 
         if (id.includes('cero')) {
             p = "cero" 
-        } else if (id.includes("spaceguy")){
-            p = "spaceguy" 
+        } else if (id.includes("bloog")){
+            p = "bloog" 
         } else if (id.includes("mlhacks")){
             p = "mlhacks" 
         } else if (id.includes("linescape")){
