@@ -15,7 +15,7 @@ class TopBar extends React.Component {
                     </div>
                     <div id="menu">
                         <a className="faded" id="projects-link" href="https://lilianzlettuce.github.io/#projects">Work</a>
-                        <a className="faded" id="eng-projects-link" href="https://lilianzlettuce.github.io/stuff">Fun</a>
+                        <a className="faded" id="fun-link" href="https://lilianzlettuce.github.io/stuff">Fun</a>
                         <a className="faded" id="about-link" href="https://lilianzlettuce.github.io/about">About</a>
                     </div>
                 </div>

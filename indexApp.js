@@ -154,13 +154,13 @@ document.addEventListener('DOMContentLoaded', () => {
             if (a.className == "circle-hover"){
                 a.className = "circle" 
                 if (a.id == "c2") {
-                    a.style.borderColor = "black" 
+                    a.style.borderColor = "white" 
                     contact2.style.display = "none" 
                 } else if (a.id == "c3") {
                     a.style.borderColor = "tomato" 
                     contact3.style.display = "none" 
                 } else{
-                    a.style.borderColor = "black" 
+                    a.style.borderColor = "white" 
                     contact1.style.display = "none" 
                 }
             } else if (a.className.includes("circle")){
@@ -170,6 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     contact2.style.display = "flex" 
                 } else if (a.id == "c3") {
                     a.style.borderColor = "tomato" 
+                    a.style.backgroundColor = "white" 
                     contact3.style.display = "grid" 
                 } else {
                     a.style.borderColor = "orange" 
