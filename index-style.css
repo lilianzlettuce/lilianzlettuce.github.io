@@ -2,9 +2,7 @@
 
 :root {
     --main: rgb(255, 211, 134);
-    --link-hover: rgb(134, 188, 255);
-    --link-hover: rgb(255, 211, 134);
-    --link-hover: var(--yellow);
+    --link-hover: var(--lettuce);
     --text-color: white;
     --lettuce: rgb(176, 255, 91);
     --magenta: rgb(255, 71, 234);
@@ -152,25 +150,7 @@ div{
     cursor: pointer;
 }
 
-.contact{
-    display: none;
-    transition: 1s ease-out;
-}
-
-@keyframes testAnim{
-    0%{
-        width: 12rem;
-        height: 12rem;
-    }
-    100%{
-        transform: rotate(270deg);
-        width: 8rem;
-        height: 8rem;
-    }
-}
-
 .c1{
-    animation: testAnim ease 3s 0s 1 forwards;
     animation: cAnim1 ease 3s 0s 1;
     background-color: rgba(0, 0, 0, 0);
     border-color: rgb(50, 50, 50);
@@ -179,13 +159,11 @@ div{
 
 @keyframes cAnim1{
     50%{
-        width: 20rem;
-        height: 20rem;
-        border-width: 20px;
-        background-color: rgb(255, 255, 255, 0);
+        width: 15rem;
+        height: 15rem;
+        border-width: 60px;
         transform: rotate(90deg);
         border-radius: 30px;
-        border-width: 80px;
     }
     100%{
         transform: rotate(270deg);
@@ -193,19 +171,17 @@ div{
 }
 
 .c2{
-    animation: testAnim ease 3s .5s 1 forwards;
     animation: cAnim2 ease 3s .2s 1;
     border-color: rgb(50, 50, 50);
     background-color: rgb(179, 179, 179);
 }
 @keyframes cAnim2{
     50%{
-        width: 20rem;
-        height: 20rem;
-        border-width: 20px;
+        width: 15rem;
+        height: 15rem;
+        border-width: 60px;
         transform: rotate(90deg);
         border-radius: 30px;
-        border-width: 80px;
     }
     100%{
         transform: rotate(270deg);
@@ -213,7 +189,6 @@ div{
 }
 
 .c3{
-    animation: testAnim ease 3s 1s 1 forwards;
     animation: cAnim3 ease 3s .4s 1;
     border-color: var(--magenta);
     background-color: rgb(255, 255, 255);
@@ -227,12 +202,11 @@ div{
 }
 @keyframes cAnim3{
     50%{
-        width: 20rem;
-        height: 20rem;
-        border-width: 20px;
+        width: 15rem;
+        height: 15rem;
+        border-width: 60px;
         transform: rotate(90deg);
         border-radius: 30px;
-        border-width: 80px;
     }
     100%{
         transform: rotate(270deg);
@@ -320,6 +294,7 @@ div{
     font-size: 3rem; 
     color: white;
     transition: color 500ms ease;
+    pointer-events: auto;
 }
 
 .icon:hover{
@@ -336,9 +311,9 @@ div{
     padding: 0;
     transition: 3s ease;
     transform: scale(.0);
-    animation: email ease 2s 0s 1 normal forwards;
+    animation: popup ease 2s 0s 1 normal forwards;
 }
-@keyframes email{
+@keyframes popup{
     40%{
         transform: scale(.0);
     }
@@ -358,7 +333,7 @@ div{
     margin: 0.9rem;
     transition: 3s ease;
     transform: scale(0);
-    animation: email ease 2s .2s 1 normal forwards;
+    animation: popup ease 2s .2s 1 normal forwards;
 }
 
 #github{
@@ -369,7 +344,7 @@ div{
     margin: 0.9rem;
     transition: 3s ease;
     transform: scale(0);
-    animation: email ease 2s .4s 1 normal forwards;
+    animation: popup ease 2s .4s 1 normal forwards;
 }
 
 #question{
@@ -380,7 +355,26 @@ div{
     margin: 0.9rem;
     transition: 3s ease;
     transform: scale(0);
-    animation: email ease 2s .6s 1 normal forwards;
+    animation: popup ease 2s .6s 1 normal forwards;
+}
+
+.contact{
+    display: none;
+    transition: 1s ease-out;
+    pointer-events: none;
+}
+
+#contact1{
+    transition: 3s ease;
+    transform: scale(.0);
+    animation: popup ease 2s 0s 1 normal forwards;
+    font-size: 4rem;
+}
+
+#contact2{
+    transition: 3s ease;
+    transform: scale(.0);
+    animation: popup ease 2s 0s 1 normal forwards;
 }
 
 #contact3{
