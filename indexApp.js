@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentDotNum: 1,
         },
         cero: {
-            color: "black",
+            color: "var(--tomato)",
             currentDotNum: 1
         },
         bloog: {
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pic3.style.opacity = "0%" 
         } 
         currentDot.style.backgroundColor = "white" 
-        currentDot.style.border = "1px solid black" 
+        currentDot.style.border = "1px solid white" 
         nextDot.style.backgroundColor = color 
         nextDot.style.border = "none" 
         eval("projects." + p + `.currentDotNum = ${getNextDotNum(currentDotNum)} `) 
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let currentDot = document.querySelector(`#${p}-dot${currentDotNum}`) 
         currentDot.style.backgroundColor = "white" 
-        currentDot.style.border = "1px solid black" 
+        currentDot.style.border = "1px solid white" 
 
         let nextDot = document.querySelector(`#${id}`) 
         nextDot.style.backgroundColor = color 

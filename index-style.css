@@ -151,17 +151,17 @@ div{
 }
 
 .c1{
-    animation: cAnim1 ease 3s 0s 1;
+    animation: cAnim ease 3s 0s 1;
     background-color: rgba(0, 0, 0, 0);
     border-color: rgb(50, 50, 50);
     background-color: rgb(179, 179, 179);
 }
 
-@keyframes cAnim1{
+@keyframes cAnim{
     50%{
-        width: 15rem;
-        height: 15rem;
-        border-width: 60px;
+        width: 18rem;
+        height: 18rem;
+        border-width: 70px;
         transform: rotate(90deg);
         border-radius: 30px;
     }
@@ -171,45 +171,33 @@ div{
 }
 
 .c2{
-    animation: cAnim2 ease 3s .2s 1;
+    animation: cAnim ease 3s .2s 1;
     border-color: rgb(50, 50, 50);
     background-color: rgb(179, 179, 179);
 }
-@keyframes cAnim2{
-    50%{
-        width: 15rem;
-        height: 15rem;
-        border-width: 60px;
-        transform: rotate(90deg);
-        border-radius: 30px;
-    }
-    100%{
-        transform: rotate(270deg);
-    }
-}
 
 .c3{
-    animation: cAnim3 ease 3s .4s 1;
-    border-color: var(--magenta);
-    background-color: rgb(255, 255, 255);
+    animation: cAnim ease 3s .4s 1;
 
+    border-color: var(--magenta);
     border-color: white;
     background-color: rgba(255, 255, 255, 0);
+    background-color: var(--magenta);
 }
 .c3:hover{
     border-color: rgb(255, 71, 234);
-    background-color: rgb(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
 }
-@keyframes cAnim3{
-    50%{
-        width: 15rem;
-        height: 15rem;
-        border-width: 60px;
-        transform: rotate(90deg);
-        border-radius: 30px;
+
+.pulse{
+    animation: pulse ease .5s alternate infinite;
+}
+@keyframes pulse {
+    0% {
+        background-color: rgba(255, 255, 255, 0);
     }
-    100%{
-        transform: rotate(270deg);
+    100% {
+        background-color: var(--magenta);
     }
 }
 
@@ -585,8 +573,8 @@ div{
     position: relative;
     top: -10px;
     left: -5px;
-    border: 1px solid rgb(3, 3, 3);
-    background-color: rgba(255, 255, 255, 0.164);
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255, 0);
     width: 100px;
     height: 100px;
     transform: rotate(45deg);
@@ -594,7 +582,8 @@ div{
 }
 
 .dot{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     width: 15px;
     height: 15px;
     border-radius: 100px;
@@ -663,7 +652,7 @@ div{
 
 #cero-dot1{
     border: none;
-    background-color: black;
+    background-color: var(--tomato);
 }
 
 #cero-hex{
