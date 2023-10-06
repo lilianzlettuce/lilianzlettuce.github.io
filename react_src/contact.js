@@ -21,16 +21,16 @@ class Contact extends React.Component {
 
                 <div id="svg-container">
                     <svg className="scribbles" id="scribble2" width="50vw" height="70vh">
-                        <path id="scribble-path2" stroke="rgb(134, 173, 255)" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
+                        <path id="scribble-path2" stroke="var(--cyan)" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
                     </svg>
                     <svg className="scribbles" id="scribble3" width="50vw" height="70vh">
-                        <path id="scribble-path3" stroke="tomato" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
+                        <path id="scribble-path3" stroke="var(--yellow)" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
                     </svg>
                     <svg className="scribbles" id="scribble" width="60vw" height="70vh">
-                        <path id="scribble-path" stroke="white" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
+                        <path id="scribble-path" stroke="var(--lettuce)" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
                     </svg>
                     <svg className="scribbles" id="scribble4" width="50vw" height="70vh">
-                        <path id="scribble-path4" stroke="yellow" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
+                        <path id="scribble-path4" stroke="var(--magenta)" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
                     </svg>
                 </div>
             </div>

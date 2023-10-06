@@ -4,6 +4,7 @@
     --main: rgb(255, 211, 134);
     --link-hover: var(--lettuce);
     --text-color: white;
+    --bg-color: rgb(22, 22, 22);
     --lettuce: rgb(176, 255, 91);
     --magenta: rgb(255, 71, 234);
     --cyan: cyan;
@@ -13,7 +14,7 @@
     --width: 600px;
     --minwidth: 550px;
     overflow-x: hidden;
-    background-color: rgb(22, 22, 22);
+    background-color: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -181,8 +182,8 @@ div{
 
     border-color: var(--magenta);
     border-color: white;
-    background-color: rgba(255, 255, 255, 0);
     background-color: var(--magenta);
+    background-color: rgba(255, 255, 255, 0);
 }
 .c3:hover{
     border-color: rgb(255, 71, 234);
@@ -230,12 +231,15 @@ div{
 
 .home-text{
     width: 80%;
+    max-width: 332px;
+    max-width: 400px;
     margin: 0px 0rem;
     line-height: 4rem;
     font-weight: 100;
     font-size: 2.3rem;
     font-family: 'Barlow';
     color: var(--text-color);
+    font-weight: bolder;
 }
 
 #greeting {
