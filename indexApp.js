@@ -154,26 +154,31 @@ document.addEventListener('DOMContentLoaded', () => {
             if (a.className == "circle-hover"){
                 a.className = "circle" 
                 if (a.id == "c2") {
-                    a.style.borderColor = "white" 
+                    a.style.borderColor = "var(--cyan)" 
+                    a.style.backgroundColor = "var(--tomato)" 
                     contact2.style.display = "none" 
                 } else if (a.id == "c3") {
-                    a.style.borderColor = "tomato" 
+                    a.style.borderColor = "var(--magenta)" 
                     contact3.style.display = "none" 
+                    a.style.backgroundColor = "var(--lettuce)"
                 } else{
-                    a.style.borderColor = "white" 
+                    a.style.borderColor = "var(--yellow)" 
                     contact1.style.display = "none" 
+                    a.style.backgroundColor = "var(--purple)"
                 }
             } else if (a.className.includes("circle")){
                 a.className = "circle-hover" 
                 if (a.id == "c2") {
-                    a.style.borderColor = "rgb(134, 173, 255)" 
+                    a.style.borderColor = "var(--cyan)" 
+                    a.style.backgroundColor = "rgb(255, 255, 255, 0)" 
                     contact2.style.display = "flex" 
                 } else if (a.id == "c3") {
-                    a.style.borderColor = "tomato" 
-                    a.style.backgroundColor = "white" 
+                    a.style.borderColor = "var(--magenta)" 
+                    a.style.backgroundColor = "rgb(255, 255, 255, 0)" 
                     contact3.style.display = "grid" 
                 } else {
-                    a.style.borderColor = "orange" 
+                    a.style.borderColor = "var(--yellow)" 
+                    a.style.backgroundColor = "rgb(255, 255, 255, 0)" 
                     contact1.style.display = "flex" 
                 }
             }

@@ -26,11 +26,11 @@ class Contact extends React.Component {
                     <svg className="scribbles" id="scribble3" width="50vw" height="70vh">
                         <path id="scribble-path3" stroke="tomato" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
                     </svg>
-                    <svg className="scribbles" id="scribble4" width="50vw" height="70vh">
-                        <path id="scribble-path4" stroke="black" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
-                    </svg>
                     <svg className="scribbles" id="scribble" width="60vw" height="70vh">
-                        <path id="scribble-path" stroke="black" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
+                        <path id="scribble-path" stroke="white" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
+                    </svg>
+                    <svg className="scribbles" id="scribble4" width="50vw" height="70vh">
+                        <path id="scribble-path4" stroke="yellow" strokeLinecap="round" strokeWidth="1" fill="transparent" d=""/>
                     </svg>
                 </div>
             </div>

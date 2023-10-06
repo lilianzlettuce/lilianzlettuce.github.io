@@ -81,13 +81,13 @@ var Contact = function (_React$Component) {
                     ),
                     React.createElement(
                         "svg",
-                        { className: "scribbles", id: "scribble4", width: "50vw", height: "70vh" },
-                        React.createElement("path", { id: "scribble-path4", stroke: "black", strokeLinecap: "round", strokeWidth: "1", fill: "transparent", d: "" })
+                        { className: "scribbles", id: "scribble", width: "60vw", height: "70vh" },
+                        React.createElement("path", { id: "scribble-path", stroke: "white", strokeLinecap: "round", strokeWidth: "1", fill: "transparent", d: "" })
                     ),
                     React.createElement(
                         "svg",
-                        { className: "scribbles", id: "scribble", width: "60vw", height: "70vh" },
-                        React.createElement("path", { id: "scribble-path", stroke: "black", strokeLinecap: "round", strokeWidth: "1", fill: "transparent", d: "" })
+                        { className: "scribbles", id: "scribble4", width: "50vw", height: "70vh" },
+                        React.createElement("path", { id: "scribble-path4", stroke: "yellow", strokeLinecap: "round", strokeWidth: "1", fill: "transparent", d: "" })
                     )
                 )
             );
