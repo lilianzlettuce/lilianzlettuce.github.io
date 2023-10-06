@@ -172,6 +172,9 @@ div{
 .c1{
     animation: testAnim ease 3s 0s 1 forwards;
     animation: cAnim1 ease 3s 0s 1;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgb(50, 50, 50);
+    background-color: rgb(179, 179, 179);
 }
 
 @keyframes cAnim1{
@@ -182,6 +185,7 @@ div{
         background-color: rgb(255, 255, 255, 0);
         transform: rotate(90deg);
         border-radius: 30px;
+        border-width: 80px;
     }
     100%{
         transform: rotate(270deg);
@@ -191,6 +195,8 @@ div{
 .c2{
     animation: testAnim ease 3s .5s 1 forwards;
     animation: cAnim2 ease 3s .2s 1;
+    border-color: rgb(50, 50, 50);
+    background-color: rgb(179, 179, 179);
 }
 @keyframes cAnim2{
     50%{
@@ -199,6 +205,7 @@ div{
         border-width: 20px;
         transform: rotate(90deg);
         border-radius: 30px;
+        border-width: 80px;
     }
     100%{
         transform: rotate(270deg);
@@ -210,6 +217,9 @@ div{
     animation: cAnim3 ease 3s .4s 1;
     border-color: var(--magenta);
     background-color: rgb(255, 255, 255);
+
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 .c3:hover{
     border-color: rgb(255, 71, 234);
@@ -222,6 +232,7 @@ div{
         border-width: 20px;
         transform: rotate(90deg);
         border-radius: 30px;
+        border-width: 80px;
     }
     100%{
         transform: rotate(270deg);
