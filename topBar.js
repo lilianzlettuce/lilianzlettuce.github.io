@@ -31,7 +31,7 @@ var TopBar = function (_React$Component) {
                         { className: "name" },
                         React.createElement(
                             "a",
-                            { id: "name", target: "_blank", href: "https://lilianzlettuce.github.io/thing/" },
+                            { id: "name", href: "https://lilianzlettuce.github.io/" },
                             "lilian zhao"
                         ),
                         React.createElement("canvas", { className: "canvas", width: "70", height: "60" })
@@ -47,7 +47,7 @@ var TopBar = function (_React$Component) {
                         React.createElement(
                             "a",
                             { className: "faded", id: "fun-link", href: "https://lilianzlettuce.github.io/stuff" },
-                            "Fun"
+                            "Stuff"
                         ),
                         React.createElement(
                             "a",

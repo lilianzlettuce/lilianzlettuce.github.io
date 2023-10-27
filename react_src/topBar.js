@@ -10,12 +10,12 @@ class TopBar extends React.Component {
             <div>
                 <div className="section top-bar" id="top">
                     <div className="name">
-                        <a id="name" target="_blank" href="https://lilianzlettuce.github.io/thing/">lilian zhao</a>
+                        <a id="name" href="https://lilianzlettuce.github.io/">lilian zhao</a>
                         <canvas className="canvas" width="70" height="60"></canvas>
                     </div>
                     <div id="menu">
                         <a className="faded" id="projects-link" href="https://lilianzlettuce.github.io/#projects">Work</a>
-                        <a className="faded" id="fun-link" href="https://lilianzlettuce.github.io/stuff">Fun</a>
+                        <a className="faded" id="fun-link" href="https://lilianzlettuce.github.io/stuff">Stuff</a>
                         <a className="faded" id="about-link" href="https://lilianzlettuce.github.io/about">About</a>
                     </div>
                 </div>
