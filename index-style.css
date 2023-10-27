@@ -3,6 +3,7 @@
 :root {
     --main: rgb(255, 211, 134);
     --link-hover: var(--lettuce);
+    --highlight: var(--magenta);
     --text-color: white;
     --bg-color: rgb(22, 22, 22);
     --lettuce: rgb(176, 255, 91);
@@ -16,6 +17,10 @@
     overflow-x: hidden;
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+
+::selection {
+    background: var(--highlight);
 }
 
 html{
@@ -463,8 +468,8 @@ div{
 }
 
 .date{
-    color:rgb(55, 118, 255);
-    font-weight: 300;
+    color: var(--cyan);
+    font-weight: 400;
     margin: 1rem 0rem;
 }
 
@@ -474,10 +479,10 @@ div{
     margin: 10px 0 5px 0;
     cursor: pointer;
     transition: 1s ease;
-    color: rgb(255, 120, 96);
+    color: var(--magenta);
 }
 .award:hover {
-    color: rgb(255, 120, 96);
+    color: var(--magenta);
 }
 
 .descrip{
@@ -602,12 +607,12 @@ div{
     position: relative;
     left: 30px;
     font-size: 3rem;
-    color: tomato;
+    color: var(--yellow);
     transition: 1s ease;
 }
 
 .right-arrow:hover{
-    color: rgb(255, 160, 144);
+    color: var(--yellow);
 }
 
 .descrip-text{
