@@ -11,7 +11,9 @@ class TopBar extends React.Component {
                 <div className="section top-bar" id="top">
                     <div className="name">
                         <a id="name" href="https://lilianzlettuce.github.io/">lilian zhao</a>
-                        <canvas className="canvas" width="70" height="60"></canvas>
+                        <div id="toilet-model-container">
+                            <model-viewer id="toilet-model" src="assets/toilet-open-3.glb" alt="Toilet" camera-controls ios-src="assets/toilet-open.glb"></model-viewer>
+                        </div>
                     </div>
                     <div id="menu">
                         <a className="faded menu-link" id="projects-link" href="https://lilianzlettuce.github.io/#projects">Work</a>
