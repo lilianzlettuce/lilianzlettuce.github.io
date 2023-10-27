@@ -218,6 +218,7 @@ div{
 
 .lettuce {
     color: var(--lettuce);
+    height: 20px;
 }
 
 #menu-side{
@@ -251,13 +252,13 @@ div{
 .icon{
     font-size: 3rem; 
     color: white;
-    transition: color 500ms ease;
     pointer-events: auto;
 }
 
 .icon:hover{
     cursor: pointer;
-    color: rgb(99, 99, 99);
+    color: var(--magenta);
+    background-color: transparent;
 }
 
 #email{

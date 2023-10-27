@@ -14,9 +14,9 @@ class TopBar extends React.Component {
                         <canvas className="canvas" width="70" height="60"></canvas>
                     </div>
                     <div id="menu">
-                        <a className="faded" id="projects-link" href="https://lilianzlettuce.github.io/#projects">Work</a>
-                        <a className="faded" id="fun-link" href="https://lilianzlettuce.github.io/stuff">Stuff</a>
-                        <a className="faded" id="about-link" href="https://lilianzlettuce.github.io/about">About</a>
+                        <a className="faded menu-link" id="projects-link" href="https://lilianzlettuce.github.io/#projects">Work</a>
+                        <a className="faded menu-link" id="fun-link" href="https://lilianzlettuce.github.io/stuff">Stuff</a>
+                        <a className="faded menu-link" id="about-link" href="https://lilianzlettuce.github.io/about">About</a>
                     </div>
                 </div>
             </div>
