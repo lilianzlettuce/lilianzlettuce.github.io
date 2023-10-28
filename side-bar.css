@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Montserrat&display=swap');
+
+#name{
+    font-size: 2.8rem;
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    width: 150px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+}
+#name:hover{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 800;
+    color: var(--magenta);
+    font-size: 3rem;
+    background-color: white;
+
+    /*font-family: 'Libre Barcode 128 Text', 'Pixelify Sans', sans-serif;
+    background-color: transparent;
+    top: 10px;
+    height: fit-content;
+    font-size: 3.4rem;
+    color: white;*/
+}
+
+.top-bar{
+    position: fixed;
+    width: 100vw;
+    margin: 0 0 10px 0;
+    padding: 40px 80px 60px 80px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    flex-grow: 4;
+    font-weight: 600;
+    font-family: Montserrat;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#toilet-model-container {
+    padding-left: 0px;
+}
+
+#toilet-model {
+    width: 60px;
+    height: 60px;
+}
+
+.canvas{
+    margin-left: 0px;
+}
+
+.canvas:hover {
+    cursor: pointer;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    position: sticky;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.menu-link {
+    width: 80px;
+    height: 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    /*font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Staatliches', sans-serif;*/
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+    font-weight: 800;
+    background-color: var(--cyan);
+    background-color: white;
+    color: var(--magenta);
+    font-size: 3rem;
+    font-family: inherit;
+
+    /*background-color: transparent;
+    top: 10px;
+    height: fit-content;
+    font-family: 'Libre Barcode 128 Text', 'Pixelify Sans', sans-serif;*/
+}
