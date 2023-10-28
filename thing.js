@@ -15,12 +15,6 @@ var projects = [{
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.'
 }, {
-    title: 'Purdue Hackers Landing Page',
-    img: '/img/phpic2.png',
-    link: 'https://www.purduehackers.com/',
-    categories: ['dev', 'design'],
-    descrip: 'Central site for Purdue Hackers, an on-campus organization of more than 1000 students who build & ship creative projects.'
-}, {
     title: 'ML Hacks',
     img: '/img/mlhackspic1.png',
     link: '',
@@ -33,14 +27,14 @@ var projects = [{
     categories: ['dev', 'design'],
     date: 'June 2021',
     award: '1st Place @ Hydrangea Hacks',
-    descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine.'
+    descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine—complete with original sprites, tilesets, and maps.'
 }, {
     title: 'BLOOG',
     img: '/img/bloogpic1.png',
     link: '',
     categories: ['dev', 'design'],
     date: 'May 2021',
-    descrip: 'Knockoff Quizlet. Built with React, Redux, & Firebase.'
+    descrip: 'Knockoff Quizlet. Built with React/Redux/Firebase.'
 }, {
     title: 'LineScape',
     img: '/img/linescapepic1.png',
@@ -65,53 +59,23 @@ var projects = [{
     date: 'July 2020',
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.'
 }, {
-    title: 'Tetris',
-    img: '/img/tetrispic2.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: 'Tetris remade.'
-}, {
-    title: 'Space Guy',
-    img: '/img/spaceguypic2.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: '2D space-themed platformer created with a team of 5 using Unity.'
-}, {
-    title: 'Veracity',
-    img: '/img/veracitypic3.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: 'Interface for charity searching web app. No longer running due to API restrictions.'
-}, {
-    title: 'Chamomile',
-    img: '/img/sleeppic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: 'Sleep tracker web app design'
-}, {
-    title: 'Escape Room',
-    img: '/img/escapepic1.png',
+    title: '',
+    img: '/img/.png',
     link: '',
     categories: ['dev', 'design'],
     descrip: ''
-}, {
-    title: 'Weather App',
-    img: '/img/weatherpic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: 'Minimalistic weather web app created using the weather API.'
 }];
 
-var Project = function (_React$Component) {
-    _inherits(Project, _React$Component);
+var Thing = function (_React$Component) {
+    _inherits(Thing, _React$Component);
 
-    function Project(props) {
-        _classCallCheck(this, Project);
+    function Thing(props) {
+        _classCallCheck(this, Thing);
 
-        return _possibleConstructorReturn(this, (Project.__proto__ || Object.getPrototypeOf(Project)).call(this, props));
+        return _possibleConstructorReturn(this, (Thing.__proto__ || Object.getPrototypeOf(Thing)).call(this, props));
     }
 
-    _createClass(Project, [{
+    _createClass(Thing, [{
         key: 'render',
         value: function render() {
             return React.createElement(
@@ -146,7 +110,7 @@ var Project = function (_React$Component) {
                                 ),
                                 React.createElement(
                                     'p',
-                                    { className: 'project-descrip' },
+                                    { className: 'descrip' },
                                     project.descrip
                                 )
                             )
@@ -157,8 +121,8 @@ var Project = function (_React$Component) {
         }
     }]);
 
-    return Project;
+    return Thing;
 }(React.Component);
 
-var domContainer = document.querySelector('#projects');
-ReactDOM.render(React.createElement(Project, null), domContainer);
+var domContainer = document.querySelector('#things');
+ReactDOM.render(React.createElement(Thing, null), domContainer);

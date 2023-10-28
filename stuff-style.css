@@ -21,33 +21,17 @@ body {
     column-gap: 10px;
     row-gap: 15px;
 }
-
-.project-container {
-    padding: 10px;
-    border: 3px solid var(--magenta);
-    border-color: white;
-}
-.project-container:hover {
+.projects-container:hover {
     cursor: pointer;
-    color: var(--magenta);
-    border-color: var(--magenta);
+    color: white;
 }
 
 img {
-    object-fit: cover;
     width: 100%;
-    height: calc(var(--width) * 5 / 11);
-}
-
-.descrip-box {
-    padding: 0px;
+    height: calc(var(--width) * 2 / 3);
+    height: auto;
 }
 
 .project-title {
-    font-size: 3rem;
-    margin: 10px 0;
-}
-
-.project-descrip {
-    margin: 5px 0;
+    font-size: 1.5rem;
 }

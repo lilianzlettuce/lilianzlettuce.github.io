@@ -9,13 +9,6 @@ const projects = [
         descrip: 'Interactive VR environment simulating the decay of the self.',
     },
     {
-        title: 'Purdue Hackers Landing Page',
-        img: '/img/phpic2.png',
-        link: 'https://www.purduehackers.com/',
-        categories: ['dev', 'design'],
-        descrip: 'Central site for Purdue Hackers, an on-campus organization of more than 1000 students who build & ship creative projects.',
-    },
-    {
         title: 'ML Hacks',
         img: '/img/mlhackspic1.png',
         link: '',
@@ -29,7 +22,7 @@ const projects = [
         categories: ['dev', 'design'],
         date: 'June 2021',
         award: '1st Place @ Hydrangea Hacks',
-        descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine.',
+        descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine—complete with original sprites, tilesets, and maps.',
     },
     {
         title: 'BLOOG',
@@ -37,7 +30,7 @@ const projects = [
         link: '',
         categories: ['dev', 'design'],
         date: 'May 2021',
-        descrip: 'Knockoff Quizlet. Built with React, Redux, & Firebase.',
+        descrip: 'Knockoff Quizlet. Built with React/Redux/Firebase.',
     },
     {
         title: 'LineScape',
@@ -66,50 +59,15 @@ const projects = [
         descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.',
     },
     {
-        title: 'Tetris',
-        img: '/img/tetrispic2.png',
-        link: '',
-        categories: ['dev', 'design'],
-        descrip: 'Tetris remade.',
-    },
-    {
-        title: 'Space Guy',
-        img: '/img/spaceguypic2.png',
-        link: '',
-        categories: ['dev', 'design'],
-        descrip: '2D space-themed platformer created with a team of 5 using Unity.',
-    },
-    {
-        title: 'Veracity',
-        img: '/img/veracitypic3.png',
-        link: '',
-        categories: ['dev', 'design'],
-        descrip: 'Interface for charity searching web app. No longer running due to API restrictions.',
-    },
-    {
-        title: 'Chamomile',
-        img: '/img/sleeppic1.png',
-        link: '',
-        categories: ['dev', 'design'],
-        descrip: 'Sleep tracker web app design',
-    },
-    {
-        title: 'Escape Room',
-        img: '/img/escapepic1.png',
+        title: '',
+        img: '/img/.png',
         link: '',
         categories: ['dev', 'design'],
         descrip: '',
     },
-    {
-        title: 'Weather App',
-        img: '/img/weatherpic1.png',
-        link: '',
-        categories: ['dev', 'design'],
-        descrip: 'Minimalistic weather web app created using the weather API.',
-    },
 ];
 
-class Project extends React.Component {
+class Thing extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -130,7 +88,7 @@ class Project extends React.Component {
                 <div className="descrip-text">
                     <h4 className="project-title">{project.title}</h4>
                     {project.award && <div className="award" id={"award-" + project.name}>{project.award}</div>}
-                    <p className="project-descrip">
+                    <p className="descrip">
                     {project.descrip}
                     </p>
                 </div>
@@ -142,5 +100,5 @@ class Project extends React.Component {
   }
 }
 
-const domContainer = document.querySelector('#projects')
-ReactDOM.render(<Project/>, domContainer)
+const domContainer = document.querySelector('#things')
+ReactDOM.render(<Thing/>, domContainer)
