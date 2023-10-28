@@ -201,7 +201,6 @@ div{
     max-width: 400px;
     margin: 0px 0rem;
     line-height: 4rem;
-    font-weight: 100;
     font-size: 2.3rem;
     font-family: 'Barlow';
     color: var(--text-color);
@@ -212,6 +211,7 @@ div{
     color: var(--text-color);
     font-size: 3rem;
     font-weight: 500;
+    font-weight: bolder;
     margin-bottom: 10px;
     height: 40px;
 }

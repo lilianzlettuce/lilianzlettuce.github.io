@@ -89,6 +89,7 @@
     background-color: white;
     color: var(--magenta);
     font-size: 3rem;
+    font-family: inherit;
 
     /*background-color: transparent;
     top: 10px;
