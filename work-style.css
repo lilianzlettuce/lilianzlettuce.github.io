@@ -1,6 +1,29 @@
+body {
+    font-family: 'Agbalumo', 'Arvo', 'Josefin Sans', 'Rokkitt', 'Sanchez';
+    font-family: 'Fira Mono', 'Noto Sans Mono', 'Sometype Mono', monospace;
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
+    font-size: 1.5rem;
+}
+
 .page-title {
     font-family: 'Gajraj One', sans-serif;
     font-size: 20vw;
     margin: 0;
     padding: 0 50px;
+}
+
+.projects-container {
+    width: 80vw;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+
+img {
+    width: 100%;
+    height: calc(var(--width) * 2 / 3);
+    height: auto;
 }

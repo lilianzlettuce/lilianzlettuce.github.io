@@ -9,13 +9,13 @@ const projects = [
     },
     {
         title: 'ML Hacks',
-        img: '/img/mlhacks.png',
+        img: '/img/mlhackspic1.png',
         categories: ['dev', 'design'],
         descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students.',
     },
     {
         title: 'Cero',
-        img: '/img/cero.png',
+        img: '/img/ceropic1.png',
         categories: ['dev', 'design'],
         date: 'June 2021',
         award: '1st Place @ Hydrangea Hacks',
@@ -23,7 +23,7 @@ const projects = [
     },
     {
         title: 'BLOOG',
-        img: '/img/bloog.png',
+        img: '/img/bloogpic1.png',
         categories: ['dev', 'design'],
         date: 'May 2021',
         descrip: 'Knockoff Quizlet. Built with React/Redux/Firebase.',
@@ -59,17 +59,18 @@ const projects = [
     },
 ];
 
-class Project extends Component {
+class Project extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <div>
+      <div className="projects-container">
         {projects.map(project =>
           <div className="project-container" key={project.title} id={project.title + "PC"}>
             <div className="image" id={project.name}></div>
+            <img src={project.img}/>
             <div className="descrip-box">
                 <div className="descrip-text">
                     <h4 className="title">{project.title}</h4>

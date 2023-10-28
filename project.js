@@ -15,19 +15,19 @@ var projects = [{
     categories: ['dev', 'design']
 }, {
     title: 'ML Hacks',
-    img: '/img/mlhacks.png',
+    img: '/img/mlhackspic1.png',
     categories: ['dev', 'design'],
     descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students.'
 }, {
     title: 'Cero',
-    img: '/img/cero.png',
+    img: '/img/ceropic1.png',
     categories: ['dev', 'design'],
     date: 'June 2021',
     award: '1st Place @ Hydrangea Hacks',
     descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine—complete with original sprites, tilesets, and maps.'
 }, {
     title: 'BLOOG',
-    img: '/img/bloog.png',
+    img: '/img/bloogpic1.png',
     categories: ['dev', 'design'],
     date: 'May 2021',
     descrip: 'Knockoff Quizlet. Built with React/Redux/Firebase.'
@@ -58,8 +58,8 @@ var projects = [{
     descrip: ''
 }];
 
-var Project = function (_Component) {
-    _inherits(Project, _Component);
+var Project = function (_React$Component) {
+    _inherits(Project, _React$Component);
 
     function Project(props) {
         _classCallCheck(this, Project);
@@ -72,12 +72,13 @@ var Project = function (_Component) {
         value: function render() {
             return React.createElement(
                 'div',
-                null,
+                { className: 'projects-container' },
                 projects.map(function (project) {
                     return React.createElement(
                         'div',
                         { className: 'project-container', key: project.title, id: project.title + "PC" },
                         React.createElement('div', { className: 'image', id: project.name }),
+                        React.createElement('img', { src: project.img }),
                         React.createElement(
                             'div',
                             { className: 'descrip-box' },
@@ -113,7 +114,7 @@ var Project = function (_Component) {
     }]);
 
     return Project;
-}(Component);
+}(React.Component);
 
 var domContainer = document.querySelector('#projects');
 ReactDOM.render(React.createElement(Project, null), domContainer);
