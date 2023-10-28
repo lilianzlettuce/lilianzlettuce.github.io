@@ -26,31 +26,35 @@
 
 .top-bar{
     position: fixed;
-    width: 100vw;
+    width: 17vw;
+    height: 100vh;
+    left: 83vw;
     margin: 0 0 10px 0;
-    padding: 40px 80px 60px 80px;
+    padding: 40px 40px 60px 80px;
     font-size: 1.5rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .name{
     display: flex;
-    flex-grow: 4;
+    flex-direction: column-reverse;
+    height: 200px;
     font-weight: 600;
     font-family: Montserrat;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 #toilet-model-container {
-    padding-left: 0px;
+    padding-bottom: 10px;
 }
 
 #toilet-model {
-    width: 60px;
-    height: 60px;
+    width: 130px;
+    height: 130px;
 }
 
 .canvas{
@@ -62,10 +66,11 @@
 }
 
 #menu {
+    height: 70px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
+    align-items: flex-end;
     position: sticky;
     top: 0;
     text-transform: uppercase;
@@ -78,10 +83,6 @@
     text-align: center;
     font-weight: 800;
     position: relative;
-    /*font-size: 2rem;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Staatliches', sans-serif;*/
 }
 .menu-link:hover,
 .menu-link:focus,

@@ -93,7 +93,7 @@ var projects = [{
     img: '/img/escapepic1.png',
     link: '',
     categories: ['dev', 'design'],
-    descrip: ''
+    descrip: 'Self explanatory.'
 }, {
     title: 'Weather App',
     img: '/img/weatherpic1.png',
