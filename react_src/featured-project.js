@@ -91,5 +91,5 @@ class Project extends React.Component {
   }
 }
 
-const domContainer = document.querySelector('#projects')
+const domContainer = document.querySelector('#featured-projects')
 ReactDOM.render(<Project/>, domContainer)
