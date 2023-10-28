@@ -210,13 +210,18 @@ div{
 
 #greeting {
     color: var(--text-color);
-    font-family: Inter;
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
 .lettuce {
+    font-family: 'Gajraj One', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Staatliches', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: inherit;
     color: var(--lettuce);
     height: 20px;
 }

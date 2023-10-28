@@ -48,4 +48,5 @@ a:hover,
 a:focus, 
 a:active{
     color: var(--magenta);
+    font-family: 'Pixelify Sans', sans-serif;
 }
