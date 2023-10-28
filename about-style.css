@@ -24,9 +24,8 @@ body{
 
 }
 
-.section{
-    margin: 0 auto;
-    padding: 40px 100px;
+#toilet-model {
+    display: none;
 }
 
 p{

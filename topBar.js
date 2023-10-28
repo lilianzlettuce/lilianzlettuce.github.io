@@ -25,7 +25,7 @@ var TopBar = function (_React$Component) {
                 null,
                 React.createElement(
                     "div",
-                    { className: "section top-bar", id: "top" },
+                    { className: "top-bar", id: "top" },
                     React.createElement(
                         "div",
                         { className: "name" },

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Arvo&family=Josefin+Sans&family=Rokkitt&family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Noto+Sans+Mono&family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Libre+Barcode+128+Text&family=Libre+Barcode+39+Extended+Text&family=Libre+Barcode+39+Text&family=Linefont:wght@200&display=swap');
+
 :root {
     --main: rgb(255, 211, 134);
     --highlight: var(--magenta);
