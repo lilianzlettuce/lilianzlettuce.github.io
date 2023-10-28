@@ -6,6 +6,10 @@ body {
     font-size: 1.5rem;
 }
 
+.scribbles {
+    display: none;
+}
+
 .page-title {
     font-family: 'Gajraj One', sans-serif;
     font-size: 20vw;
@@ -24,7 +28,7 @@ body {
 
 .project-container {
     padding: 10px;
-    border: 3px solid var(--magenta);
+    border: 2px solid var(--magenta);
     border-color: white;
 }
 .project-container:hover {
