@@ -1,4 +1,6 @@
-export const projects = [
+'use strict';
+
+const projects = [
     {
         title: 'Atrophy: Graveyard of My Fallen Heroes',
         img: '/img/atrophy.png',
@@ -56,3 +58,34 @@ export const projects = [
         descrip: '',
     },
 ];
+
+class Project extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div>
+        {projects.map(project =>
+          <div className="project-container" key={project.title} id={project.title + "PC"}>
+            <div className="image" id={project.name}></div>
+            <div className="descrip-box">
+                <div className="descrip-text">
+                    <h4 className="title">{project.title}</h4>
+                    <h6 className="date">{project.date}</h6>
+                    {project.award && <div className="award" id={"award-" + project.name}>{project.award}</div>}
+                    <p className="descrip">
+                    {project.descrip}
+                    </p>
+                </div>
+            </div>
+          </div>
+        )}
+      </div>
+    )
+  }
+}
+
+const domContainer = document.querySelector('#projects')
+ReactDOM.render(<Project/>, domContainer)

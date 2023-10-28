@@ -50,7 +50,7 @@ let projects = {
 }
 let projectArr = [projects.mlhacks, projects.cero, projects.bloog, projects.linescape, projects.snowball, projects.two]
 
-class Project extends React.Component {
+class FeaturedProject extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -92,4 +92,4 @@ class Project extends React.Component {
 }
 
 const domContainer = document.querySelector('#featured-projects')
-ReactDOM.render(<Project/>, domContainer)
+ReactDOM.render(<FeaturedProject/>, domContainer)

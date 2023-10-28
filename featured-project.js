@@ -58,16 +58,16 @@ var projects = {
 };
 var projectArr = [projects.mlhacks, projects.cero, projects.bloog, projects.linescape, projects.snowball, projects.two];
 
-var Project = function (_React$Component) {
-  _inherits(Project, _React$Component);
+var FeaturedProject = function (_React$Component) {
+  _inherits(FeaturedProject, _React$Component);
 
-  function Project(props) {
-    _classCallCheck(this, Project);
+  function FeaturedProject(props) {
+    _classCallCheck(this, FeaturedProject);
 
-    return _possibleConstructorReturn(this, (Project.__proto__ || Object.getPrototypeOf(Project)).call(this, props));
+    return _possibleConstructorReturn(this, (FeaturedProject.__proto__ || Object.getPrototypeOf(FeaturedProject)).call(this, props));
   }
 
-  _createClass(Project, [{
+  _createClass(FeaturedProject, [{
     key: 'render',
     value: function render() {
       return React.createElement(
@@ -131,8 +131,8 @@ var Project = function (_React$Component) {
     }
   }]);
 
-  return Project;
+  return FeaturedProject;
 }(React.Component);
 
 var domContainer = document.querySelector('#featured-projects');
-ReactDOM.render(React.createElement(Project, null), domContainer);
+ReactDOM.render(React.createElement(FeaturedProject, null), domContainer);
