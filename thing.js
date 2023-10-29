@@ -107,11 +107,6 @@ var Thing = function (_React$Component) {
                                     'div',
                                     { className: 'award', id: "award-" + project.name },
                                     project.award
-                                ),
-                                React.createElement(
-                                    'p',
-                                    { className: 'descrip' },
-                                    project.descrip
                                 )
                             )
                         )
