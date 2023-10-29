@@ -27,10 +27,9 @@
 .top-bar{
     position: fixed;
     top: 0;
-    left: 0;
+    left: 83vw;
     width: 17vw;
     height: 100vh;
-    left: 83vw;
     margin: 0 0 10px 0;
     padding: 40px 40px 60px 80px;
     font-size: 1.5rem;
@@ -39,6 +38,21 @@
     justify-content: flex-start;
     align-items: flex-end;
     z-index: 500;
+
+    animation: fadeSlideIn ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        left: 100vw;
+    }
+    100% {
+        opacity: 1;
+        left: 83vw;
+    }
 }
 
 .name{
