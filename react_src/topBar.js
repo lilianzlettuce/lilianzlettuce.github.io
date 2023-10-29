@@ -8,7 +8,7 @@ class TopBar extends React.Component {
     render() {
         return (
             <div>
-                <div className="top-bar" id="top">
+                <div className="top-bar">
                     <div className="name">
                         <a id="name" href="https://lilianzlettuce.github.io/">lilian zhao</a>
                         <div id="toilet-model-container">

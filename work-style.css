@@ -12,9 +12,30 @@ body {
 
 .page-title {
     font-family: 'Gajraj One', sans-serif;
-    font-size: 20vw;
     margin: 0;
-    padding: 0 50px;
+    transition: 1s ease;
+
+    font-size: 15vw;
+    padding: 0 0 0 80px;
+    margin-top: -40px;
+    margin-bottom: -10px;
+    transform: scale(2, .9);
+
+    /*font-size: 20vw;
+    margin-bottom: -50px;
+    transform: scale(2, .9);*/
+
+    /*font-size: 10vw;
+    padding: 0 0 0 335px;
+    transform: scale(2, 1);*/
+
+    animation: textAnim ease 1s forwards;
+    z-index: 0;
+}
+@keyframes textAnim {
+    100% {
+        transform: scale(1.1, .9);
+    }
 }
 
 .projects-container {
