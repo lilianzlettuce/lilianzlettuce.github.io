@@ -3,7 +3,7 @@ body {
     font-family: 'Fira Mono', 'Noto Sans Mono', 'Sometype Mono', monospace;
     font-family: 'Sometype Mono', monospace;
     font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .scribbles {
@@ -69,7 +69,7 @@ img {
 }
 
 .project-title {
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin: 10px 0;
 }
 
