@@ -62,7 +62,7 @@ var Contact = function (_React$Component) {
                         React.createElement(
                             "p",
                             { id: "bottom-text" },
-                            "Made with the blood of a thousand snails | 2022"
+                            "Made with the blood of a thousand snails | 3202"
                         )
                     )
                 ),

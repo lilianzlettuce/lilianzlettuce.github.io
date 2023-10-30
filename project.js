@@ -40,7 +40,7 @@ var projects = [{
     link: '',
     categories: ['dev', 'design'],
     date: 'May 2021',
-    descrip: 'Knockoff Quizlet. Built with React, Redux, & Firebase.'
+    descrip: 'Notecard web app built with React, Redux, & Firebase. (Basically knockoff quizlet).'
 }, {
     title: 'LineScape',
     img: '/img/linescapepic1.png',
@@ -48,7 +48,7 @@ var projects = [{
     categories: ['dev', 'design'],
     date: 'April 2021',
     award: 'Best Design @ Superposition V',
-    descrip: 'SVG drawing tool that provides an interactive visual interface designed to simplify the process of creating line animations for websites.'
+    descrip: 'SVG drawing tool designed to simplify the process of creating line animations for websites.'
 }, {
     title: 'Snowball',
     img: '/img/snowballpic1.png',
