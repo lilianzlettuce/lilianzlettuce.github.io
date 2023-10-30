@@ -9,114 +9,51 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var projects = [{
-    title: 'Atrophy: Graveyard of My Fallen Heroes',
-    img: '/img/atrophypic1.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-    title: 'ML Hacks',
-    img: '/img/mlhackspic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students.'
-}, {
-    title: 'Cero',
-    img: '/img/ceropic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    date: 'June 2021',
-    award: '1st Place @ Hydrangea Hacks',
-    descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine—complete with original sprites, tilesets, and maps.'
-}, {
-    title: 'BLOOG',
-    img: '/img/bloogpic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    date: 'May 2021',
-    descrip: 'Knockoff Quizlet. Built with React/Redux/Firebase.'
-}, {
-    title: 'LineScape',
-    img: '/img/linescapepic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    date: 'April 2021',
-    award: 'Best Design @ Superposition V',
-    descrip: 'SVG drawing tool that provides an interactive visual interface designed to simplify the process of creating line animations for websites.'
-}, {
-    title: 'Snowball',
-    img: '/img/snowballpic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    date: 'Oct 2020',
-    award: 'Best Overall Hack @ Creatica 2020',
-    descrip: 'Crowdfunding Android app created to maximize the impact of individual donations by taking advantage of corporate matching programs.'
-}, {
-    title: '2048',
-    img: '/img/2048pic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    date: 'July 2020',
-    descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.'
-}, {
-    title: '',
-    img: '/img/.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: ''
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/atrophypic1.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
 }];
 
+var numThings = 6;
+var imgs = [];
+for (var i = 1; i <= numThings; i++) {
+  imgs.push('img/things/p' + i + '.png');
+}
+
 var Thing = function (_React$Component) {
-    _inherits(Thing, _React$Component);
+  _inherits(Thing, _React$Component);
 
-    function Thing(props) {
-        _classCallCheck(this, Thing);
+  function Thing(props) {
+    _classCallCheck(this, Thing);
 
-        return _possibleConstructorReturn(this, (Thing.__proto__ || Object.getPrototypeOf(Thing)).call(this, props));
-    }
+    return _possibleConstructorReturn(this, (Thing.__proto__ || Object.getPrototypeOf(Thing)).call(this, props));
+  }
 
-    _createClass(Thing, [{
-        key: 'render',
-        value: function render() {
+  _createClass(Thing, [{
+    key: 'render',
+    value: function render() {
+      return React.createElement(
+        'div',
+        { className: 'stuff-container' },
+        React.createElement(
+          'div',
+          { 'class': 'grid' },
+          React.createElement('div', { className: 'grid-sizer' }),
+          imgs.map(function (img) {
             return React.createElement(
-                'div',
-                { className: 'projects-container' },
-                projects.map(function (project) {
-                    return React.createElement(
-                        'div',
-                        {
-                            className: 'project-container',
-                            key: project.title,
-                            id: project.title + "PC",
-                            href: project.link
-                        },
-                        React.createElement('div', { className: 'image', id: project.name }),
-                        React.createElement('img', { src: project.img }),
-                        React.createElement(
-                            'div',
-                            { className: 'descrip-box' },
-                            React.createElement(
-                                'div',
-                                { className: 'descrip-text' },
-                                React.createElement(
-                                    'h4',
-                                    { className: 'project-title' },
-                                    project.title
-                                ),
-                                project.award && React.createElement(
-                                    'div',
-                                    { className: 'award', id: "award-" + project.name },
-                                    project.award
-                                )
-                            )
-                        )
-                    );
-                })
+              'div',
+              { 'class': 'grid-item' },
+              React.createElement('img', { src: img })
             );
-        }
-    }]);
+          })
+        )
+      );
+    }
+  }]);
 
-    return Thing;
+  return Thing;
 }(React.Component);
 
 var domContainer = document.querySelector('#things');

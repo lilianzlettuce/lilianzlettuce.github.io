@@ -1,3 +1,5 @@
+@use "@material/image-list/mdc-image-list";
+
 body {
     font-family: 'Agbalumo', 'Arvo', 'Josefin Sans', 'Rokkitt', 'Sanchez';
     font-family: 'Fira Mono', 'Noto Sans Mono', 'Sometype Mono', monospace;
@@ -13,6 +15,13 @@ body {
     padding: 0 50px;
 }
 
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { 
+    width: 33%; 
+    padding: 5px;
+}
+
 .projects-container {
     width: 80vw;
     padding: 30px;
@@ -24,6 +33,11 @@ body {
 .projects-container:hover {
     cursor: pointer;
     color: white;
+}
+
+.stuff-container {
+    width: 83vw;
+    padding: 30px;
 }
 
 img {

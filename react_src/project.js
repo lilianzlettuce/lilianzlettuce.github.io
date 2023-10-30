@@ -130,9 +130,7 @@ class Project extends React.Component {
                 <div className="descrip-text">
                     <h4 className="project-title">{project.title}</h4>
                     {project.award && <div className="award" id={"award-" + project.name}>{project.award}</div>}
-                    <p className="project-descrip">
-                    {project.descrip}
-                    </p>
+                    <p className="project-descrip">{project.descrip}</p>
                 </div>
             </div>
           </div>
