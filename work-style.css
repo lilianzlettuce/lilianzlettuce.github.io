@@ -10,15 +10,31 @@ body {
     display: none;
 }
 
+/*.page-title-container {
+    position: relative;
+    left: 0;
+    width: 83vw;
+    display: flex;
+    justify-content: flex-end;
+}*/
 .page-title {
     font-family: 'Gajraj One', sans-serif;
-    margin: 0;
-    transition: 1s ease;
+    /*font-family: inherit;
+    font-family: 'Arvo', 'Josefin Sans', 'Rokkitt', 'Sanchez';
+    font-family: 'Sanchez';
+    font-family: 'Agbalumo';
+    text-transform: uppercase;
+    position: relative;
+    left: 0;*/
+
+    /*font-size: 13vw;
+    padding: 0 80px;
+    margin: -40px 0 -10px 0;
+    transform: scale(1, .6);*/
 
     font-size: 15vw;
-    padding: 0 0 0 80px;
-    margin-top: -40px;
-    margin-bottom: -10px;
+    padding: 0 80px;
+    margin: -40px 0 -10px 0;
     transform: scale(2, .9);
 
     /*font-size: 20vw;
@@ -35,10 +51,23 @@ body {
 @keyframes textAnim {
     100% {
         transform: scale(1.1, .9);
+        left: -18vw;
+    }
+}
+@keyframes textAnim2 {
+    50% {
+        transform: scale(2, .6);
+        left: -18vw;
+    }
+    100% {
+        transform: scale(2, 1);
+        left: -18vw;
     }
 }
 
 .projects-container {
+    position: relative;
+    left: 0;
     width: 83vw;
     padding: 30px;
     display: grid;

@@ -12,7 +12,15 @@ class TopBar extends React.Component {
                     <div className="name">
                         <a id="name" href="https://lilianzlettuce.github.io/">lilian zhao</a>
                         <div id="toilet-model-container">
-                            <model-viewer id="toilet-model" src="assets/toilet-open-3.glb" alt="Toilet" camera-controls ios-src="assets/toilet-open.glb"></model-viewer>
+                            <model-viewer id="toilet-model" 
+                                src="assets/toilet-open-3.glb" 
+                                alt="Toilet" 
+                                interaction-prompt="none" 
+                                camera-controls disable-pan disable-tap disable-zoom
+                                auto-rotate auto-rotate-delay="1000"
+                                rotation-per-second="10deg" 
+                                camera-orbit="30deg 75deg 0deg"
+                                ios-src="assets/toilet-open-3.glb"></model-viewer>
                         </div>
                     </div>
                     <div id="menu">

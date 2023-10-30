@@ -37,7 +37,15 @@ var TopBar = function (_React$Component) {
                         React.createElement(
                             "div",
                             { id: "toilet-model-container" },
-                            React.createElement("model-viewer", { id: "toilet-model", src: "assets/toilet-open-3.glb", alt: "Toilet", "camera-controls": true, "ios-src": "assets/toilet-open.glb" })
+                            React.createElement("model-viewer", { id: "toilet-model",
+                                src: "assets/toilet-open-3.glb",
+                                alt: "Toilet",
+                                "interaction-prompt": "none",
+                                "camera-controls": true, "disable-pan": true, "disable-tap": true, "disable-zoom": true,
+                                "auto-rotate": true, "auto-rotate-delay": "1000",
+                                "rotation-per-second": "10deg",
+                                "camera-orbit": "30deg 75deg 0deg",
+                                "ios-src": "assets/toilet-open-3.glb" })
                         )
                     ),
                     React.createElement(

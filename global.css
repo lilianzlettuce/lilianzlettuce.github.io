@@ -8,7 +8,6 @@
 
 :root {
     --main: rgb(255, 211, 134);
-    --highlight: var(--magenta);
     --text-color: white;
     --bg-color: rgb(22, 22, 22);
     --lettuce: rgb(176, 255, 91);
@@ -17,15 +16,21 @@
     --tomato: tomato;
     --yellow: yellow;
     --purple: rgb(89, 86, 255);
+
+    --highlight-color: white;
+    --highlight-bg: black;
+
     --width: 600px;
     --minwidth: 550px;
+
     overflow-x: hidden;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
 
 ::selection {
-    background: var(--highlight);
+    background-color: var(--highlight-color);
+    color: var(--highlight-bg);
 }
 
 html{
