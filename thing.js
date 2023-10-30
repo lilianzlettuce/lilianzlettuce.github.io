@@ -8,9 +8,45 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var projects = [{
+var things = [{
   title: 'Atrophy: Graveyard of My Fallen Heroes',
-  img: '/img/atrophypic1.png',
+  img: '/img/things/p1.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/things/p2.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/things/p3.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/things/p4.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/things/p5.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/things/p6.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Atrophy: Graveyard of My Fallen Heroes',
+  img: '/img/things/p2.png',
   link: 'https://lilianzlettuce.github.io/ad417/',
   categories: ['dev', 'design'],
   descrip: 'Interactive VR environment simulating the decay of the self.'
@@ -41,11 +77,11 @@ var Thing = function (_React$Component) {
           'div',
           { 'class': 'grid' },
           React.createElement('div', { className: 'grid-sizer' }),
-          imgs.map(function (img) {
+          things.map(function (thing) {
             return React.createElement(
               'div',
               { 'class': 'grid-item' },
-              React.createElement('img', { src: img })
+              React.createElement('img', { src: thing.img })
             );
           })
         )

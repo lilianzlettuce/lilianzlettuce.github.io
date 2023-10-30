@@ -1,13 +1,55 @@
 'use strict';
 
-const projects = [
+const things = [
     {
         title: 'Atrophy: Graveyard of My Fallen Heroes',
-        img: '/img/atrophypic1.png',
+        img: '/img/things/p1.png',
         link: 'https://lilianzlettuce.github.io/ad417/',
         categories: ['dev', 'design'],
         descrip: 'Interactive VR environment simulating the decay of the self.',
-    }
+    },
+    {
+      title: 'Atrophy: Graveyard of My Fallen Heroes',
+      img: '/img/things/p2.png',
+      link: 'https://lilianzlettuce.github.io/ad417/',
+      categories: ['dev', 'design'],
+      descrip: 'Interactive VR environment simulating the decay of the self.',
+    },
+    {
+      title: 'Atrophy: Graveyard of My Fallen Heroes',
+      img: '/img/things/p3.png',
+      link: 'https://lilianzlettuce.github.io/ad417/',
+      categories: ['dev', 'design'],
+      descrip: 'Interactive VR environment simulating the decay of the self.',
+    },
+    {
+      title: 'Atrophy: Graveyard of My Fallen Heroes',
+      img: '/img/things/p4.png',
+      link: 'https://lilianzlettuce.github.io/ad417/',
+      categories: ['dev', 'design'],
+      descrip: 'Interactive VR environment simulating the decay of the self.',
+    },
+    {
+      title: 'Atrophy: Graveyard of My Fallen Heroes',
+      img: '/img/things/p5.png',
+      link: 'https://lilianzlettuce.github.io/ad417/',
+      categories: ['dev', 'design'],
+      descrip: 'Interactive VR environment simulating the decay of the self.',
+    },
+    {
+      title: 'Atrophy: Graveyard of My Fallen Heroes',
+      img: '/img/things/p6.png',
+      link: 'https://lilianzlettuce.github.io/ad417/',
+      categories: ['dev', 'design'],
+      descrip: 'Interactive VR environment simulating the decay of the self.',
+    },
+    {
+      title: 'Atrophy: Graveyard of My Fallen Heroes',
+      img: '/img/things/p2.png',
+      link: 'https://lilianzlettuce.github.io/ad417/',
+      categories: ['dev', 'design'],
+      descrip: 'Interactive VR environment simulating the decay of the self.',
+    },
 ];
 
 const numThings = 6
@@ -26,9 +68,9 @@ class Thing extends React.Component {
       <div className="stuff-container">
         <div class="grid">
           <div className="grid-sizer"></div>
-          {imgs.map(img =>
+          {things.map(thing =>
             <div class="grid-item">
-              <img src={img} />
+              <img src={thing.img} />
             </div>
           )}
         </div>
