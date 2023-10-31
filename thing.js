@@ -182,6 +182,36 @@ var things = [{
   link: 'https://lilianzlettuce.github.io/ad417/',
   categories: ['dev', 'design'],
   descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Lynn',
+  img: '/img/things/lynn.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Kinoko',
+  img: '/img/things/kinoko.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Shadow Boi Droy',
+  img: '/img/things/droy.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Shiloh',
+  img: '/img/things/shiloh.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
+}, {
+  title: 'Ren',
+  img: '/img/things/ren-bg.png',
+  link: 'https://lilianzlettuce.github.io/ad417/',
+  categories: ['dev', 'design'],
+  descrip: 'Interactive VR environment simulating the decay of the self.'
 }];
 
 var numThings = 6;
