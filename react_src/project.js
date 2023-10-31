@@ -95,7 +95,7 @@ const projects = [
     },
     {
         title: 'Escape Room',
-        img: '/img/escapepic1.png',
+        img: '/img/escaperoompic1.png',
         link: '',
         categories: ['dev', 'design'],
         descrip: 'Self explanatory.',

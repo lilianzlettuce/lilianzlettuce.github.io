@@ -16,15 +16,8 @@ const things = [
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
   {
-    title: 'face 1',
+    title: 'face 2',
     img: '/img/things/face-a1.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'face 1',
-    img: '/img/things/face-b2.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -43,30 +36,23 @@ const things = [
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
-  {
+  /*{
     title: 'hell plant 1',
     img: '/img/things/hellplant-3.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'hell plant 1',
-    img: '/img/things/hellplant-4.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
+  },*/
+  /*{
     title: 'hell plant 1',
     img: '/img/things/hellplant-face-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
+  },*/
   {
-    title: 'Potty Simulator 1000',
-    img: '/img/things/ps-1.png',
+    title: 'face 1',
+    img: '/img/things/face-b1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -79,8 +65,8 @@ const things = [
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
   {
-    title: 'Atrophy - An Artificial World',
-    img: '/img/things/purple1.png',
+    title: 'Potty Simulator 1000',
+    img: '/img/things/ps-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -94,18 +80,18 @@ const things = [
   },
   {
     title: 'Atrophy - An Artificial World',
+    img: '/img/things/purple1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  /*{
+    title: 'Atrophy - An Artificial World',
     img: '/img/things/purple4.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'what yellow\'s supposed to look like',
-    img: '/img/things/p2.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
+  },*/
   {
     title: 'Japan Street View',
     img: '/img/things/p3.png',
@@ -115,7 +101,7 @@ const things = [
   },
   {
     title: 'Japan Street View - Shaded',
-    img: '/img/things/p4.png',
+    img: '/img/things/japan1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -123,6 +109,13 @@ const things = [
   {
     title: 'Unity Experiments - Toiletception',
     img: '/img/things/p5.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'what yellow\'s supposed to look like',
+    img: '/img/things/p2.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -137,13 +130,6 @@ const things = [
   {
     title: '',
     img: '/img/things/eye/rgby.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v2-pg.png',
     link: 'https://lilianzlettuce.github.io/ad417',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -259,7 +245,7 @@ class Thing extends React.Component {
           <div className="grid-sizer"></div>
           {things.map(thing =>
             <div class="grid-item">
-              <img src={thing.img} />
+              <img src={thing.img} loading="lazy" />
             </div>
           )}
         </div>

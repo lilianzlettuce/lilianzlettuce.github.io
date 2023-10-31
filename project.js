@@ -90,7 +90,7 @@ var projects = [{
     descrip: 'Sleep tracker web app design'
 }, {
     title: 'Escape Room',
-    img: '/img/escapepic1.png',
+    img: '/img/escaperoompic1.png',
     link: '',
     categories: ['dev', 'design'],
     descrip: 'Self explanatory.'
