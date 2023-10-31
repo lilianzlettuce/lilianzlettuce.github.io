@@ -24,11 +24,18 @@ const things = [
   },
   {
     title: 'hell plant 1',
-    img: '/img/things/hellplant-1.png',
+    img: '/img/things/hellplant-face-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
+  /*{
+    title: 'hell plant 1',
+    img: '/img/things/hellplant-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },*/
   {
     title: 'hell plant 1',
     img: '/img/things/hellplant-5.png',
@@ -39,13 +46,6 @@ const things = [
   /*{
     title: 'hell plant 1',
     img: '/img/things/hellplant-3.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },*/
-  /*{
-    title: 'hell plant 1',
-    img: '/img/things/hellplant-face-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
