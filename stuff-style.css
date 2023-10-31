@@ -63,7 +63,7 @@ body {
 .grid-sizer,
 .grid-item { 
     width: 33%; 
-    min-width: 150px;
+    height: auto;
     padding: 5px;
 }
 @media (max-width: 770px) {
@@ -81,10 +81,24 @@ body {
     padding: 15px;
 }
 
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 img {
     width: 100%;
-    height: calc(var(--width) * 2 / 3);
     height: auto;
+}
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    color: transparent;
+    display: none;
 }
 
 .project-title {

@@ -122,7 +122,7 @@ const things = [
   },
   {
     title: '',
-    img: '/img/things/eye/yellow-red2.png',
+    img: '/img/things/eye/v2-yellow-red-2.png',
     link: 'https://lilianzlettuce.github.io/ad417',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -243,9 +243,14 @@ class Thing extends React.Component {
       <div className="stuff-container">
         <div class="grid">
           <div className="grid-sizer"></div>
-          {things.map(thing =>
-            <div class="grid-item">
-              <img src={thing.img} loading="lazy" />
+          {things.map((thing, i) =>
+            <div class="grid-item img-container">
+              <div className="">
+                <img src={thing.img} id={`thing-img-${i}`} loading="lazy" />
+              </div>
+              <div class="img-text" id={`thing-img-text-${i}`}>
+                {thing.title}
+              </div>
             </div>
           )}
         </div>

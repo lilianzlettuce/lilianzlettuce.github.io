@@ -118,7 +118,7 @@ var things = [{
   descrip: 'Interactive VR environment simulating the decay of the self.'
 }, {
   title: '',
-  img: '/img/things/eye/yellow-red2.png',
+  img: '/img/things/eye/v2-yellow-red-2.png',
   link: 'https://lilianzlettuce.github.io/ad417',
   categories: ['dev', 'design'],
   descrip: 'Interactive VR environment simulating the decay of the self.'
@@ -233,11 +233,20 @@ var Thing = function (_React$Component) {
           'div',
           { 'class': 'grid' },
           React.createElement('div', { className: 'grid-sizer' }),
-          things.map(function (thing) {
+          things.map(function (thing, i) {
             return React.createElement(
               'div',
-              { 'class': 'grid-item' },
-              React.createElement('img', { src: thing.img, loading: 'lazy' })
+              { 'class': 'grid-item img-container' },
+              React.createElement(
+                'div',
+                { className: '' },
+                React.createElement('img', { src: thing.img, id: 'thing-img-' + i, loading: 'lazy' })
+              ),
+              React.createElement(
+                'div',
+                { 'class': 'img-text', id: 'thing-img-text-' + i },
+                thing.title
+              )
             );
           })
         )
