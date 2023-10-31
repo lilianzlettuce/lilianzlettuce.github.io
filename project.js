@@ -19,7 +19,7 @@ var projects = [{
     img: '/img/phpic2.png',
     link: 'https://www.purduehackers.com/',
     categories: ['dev', 'design'],
-    descrip: 'Central site for Purdue Hackers, an on-campus organization of more than 1000 students who build & ship creative projects.'
+    descrip: 'Central site for Purdue Hackers, a student organization of more than 1000 members who build & ship kick-ass creative projects.'
 }, {
     title: 'ML Hacks',
     img: '/img/mlhackspic1.png',
@@ -35,6 +35,14 @@ var projects = [{
     award: '1st Place @ Hydrangea Hacks',
     descrip: 'Adventure/platformer game developed with Javascript using the melonJS game engine.'
 }, {
+    title: 'Snowball',
+    img: '/img/snowballpic1.png',
+    link: '',
+    categories: ['dev', 'design'],
+    date: 'Oct 2020',
+    award: 'Best Overall Hack @ Creatica 2020',
+    descrip: 'Crowdfunding Android app created to maximize the impact of individual donations by taking advantage of corporate matching programs.'
+}, {
     title: 'BLOOG',
     img: '/img/bloogpic1.png',
     link: '',
@@ -49,14 +57,6 @@ var projects = [{
     date: 'April 2021',
     award: 'Best Design @ Superposition V',
     descrip: 'SVG drawing tool designed to simplify the process of creating line animations for websites.'
-}, {
-    title: 'Snowball',
-    img: '/img/snowballpic1.png',
-    link: '',
-    categories: ['dev', 'design'],
-    date: 'Oct 2020',
-    award: 'Best Overall Hack @ Creatica 2020',
-    descrip: 'Crowdfunding Android app created to maximize the impact of individual donations by taking advantage of corporate matching programs.'
 }, {
     title: '2048',
     img: '/img/2048pic1.png',
@@ -93,7 +93,7 @@ var projects = [{
     img: '/img/escaperoompic1.png',
     link: '',
     categories: ['dev', 'design'],
-    descrip: 'Self explanatory.'
+    descrip: 'Online escape room featuring the nonsensical \"logic\" puzzles of my deranged high-schooler mind.'
 }, {
     title: 'Weather App',
     img: '/img/weatherpic1.png',
