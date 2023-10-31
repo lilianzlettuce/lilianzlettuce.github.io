@@ -40,10 +40,6 @@ div{
     cursor: pointer;
 }
 
-#projects-link {
-    color: rgb(255, 255, 255);
-}
-
 .home-flex-main {
     display: flex;
     padding: 0rem 0rem 10rem 0rem;

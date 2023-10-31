@@ -96,3 +96,11 @@
     height: fit-content;
     font-family: 'Libre Barcode 128 Text', 'Pixelify Sans', sans-serif;*/
 }
+
+#stuff-link:hover {
+    color: var(--cyan);
+}
+
+#about-link:hover {
+    color: var(--yellow);
+}
