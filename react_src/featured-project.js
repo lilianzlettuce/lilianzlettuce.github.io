@@ -8,6 +8,12 @@ let projects = {
     date: '',
     descrip: '',
   },
+  atrophy: {
+    name: 'atrophy',
+    title: 'Atrophy',
+    date: 'Sep 2023',
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
   mlhacks: {
     name: 'mlhacks',
     title: 'ML Hacks',
@@ -48,7 +54,7 @@ let projects = {
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.',
   },
 }
-let projectArr = [projects.mlhacks, projects.cero, projects.bloog, projects.linescape, projects.snowball, projects.two]
+let projectArr = [projects.atrophy, projects.mlhacks, projects.cero]
 
 class FeaturedProject extends React.Component {
   constructor(props) {

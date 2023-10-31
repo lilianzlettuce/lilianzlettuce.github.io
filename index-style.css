@@ -588,6 +588,29 @@ div{
     line-height: 2.7rem;
 }
 
+/* atrophy */
+
+#atrophy {
+    background-image: url(img/atrophypic1.png);
+}
+
+#atrophy2{
+    background-image: url(img/atrophypic2.png);
+}
+
+#atrophy3{
+    background-image: url(img/atrophypic3.png);
+}
+
+#atrophy-dot1{
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+#atrophy-hex{
+    transform: rotate(100deg);
+}
+
 /* mlhacks */
 
 #mlhacks {

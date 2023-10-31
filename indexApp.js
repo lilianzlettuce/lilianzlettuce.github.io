@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector("#cover").style.display = "none" 
     }, 4100) 
 
-    let projectNames = ['mlhacks', 'cero', 'bloog', 'linescape', 'snowball', 'two']
+    let projectNames = ['atrophy', 'mlhacks', 'cero', 'bloog', 'linescape', 'snowball', 'two']
+    projectNames = ['atrophy', 'mlhacks', 'cero']
 
     //scroll animations
     window.onscroll = function() {
@@ -196,6 +197,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //data for each project container
     let projects = {
+        atrophy: {
+            color: "white",
+            currentDotNum: 1,
+        },
         mlhacks: {
             color: "rgb(255, 135, 249)",
             currentDotNum: 1,
@@ -235,6 +240,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return 
         } else if (ID === 'mlhacks-hover') {
             window.open("https://mlhacks2022.vercel.app/", "_blank") 
+            return 
+        } else if (ID === 'atrophy-hover') {
+            window.open("https://lilianzlettuce.github.io/ad417", "_blank") 
             return 
         } else if (ID === "linescape-hover"){
             p = "linescape-vh" 
@@ -284,6 +292,8 @@ document.addEventListener('DOMContentLoaded', () => {
             p = 'bloog'
         } else if (id === 'mlhacks-icon') {
             p = 'mlhacks'
+        } else if (id === 'atrophy-icon') {
+            p = 'atrophy'
         } else if (id === "linescape-icon"){
             p = "linescape" 
         } else if (id === "snowball-icon"){
@@ -334,6 +344,8 @@ document.addEventListener('DOMContentLoaded', () => {
             p = "bloog" 
         } else if (id.includes("mlhacks")){
             p = "mlhacks" 
+        } else if (id.includes("atrophy")){
+            p = "atrophy" 
         } else if (id.includes("linescape")){
             p = "linescape" 
         } else if (id.includes("snowball")){
