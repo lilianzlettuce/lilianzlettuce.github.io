@@ -8,210 +8,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var things = [{
-  title: 'acryllic scene 2',
-  img: '/img/things/acr-2.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'acryllic scene 3',
-  img: '/img/things/acr-3.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'face 2',
-  img: '/img/things/face-a1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'hell plant 1',
-  img: '/img/things/hellplant-face-1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-},
-/*{
-  title: 'hell plant 1',
-  img: '/img/things/hellplant-1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.',
-},*/
-{
-  title: 'hell plant 1',
-  img: '/img/things/hellplant-5.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-},
-/*{
-  title: 'hell plant 1',
-  img: '/img/things/hellplant-3.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.',
-},*/
-{
-  title: 'face 1',
-  img: '/img/things/face-b1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Potty Simulator 1000',
-  img: '/img/things/ps-2.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Potty Simulator 1000',
-  img: '/img/things/ps-1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Atrophy - An Artificial World',
-  img: '/img/things/purple3.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Atrophy - An Artificial World',
-  img: '/img/things/purple1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-},
-/*{
-  title: 'Atrophy - An Artificial World',
-  img: '/img/things/purple4.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.',
-},*/
-{
-  title: 'Japan Street View',
-  img: '/img/things/p3.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Japan Street View - Shaded',
-  img: '/img/things/japan1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Unity Experiments - Toiletception',
-  img: '/img/things/p5.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'what yellow\'s supposed to look like',
-  img: '/img/things/p2.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: '',
-  img: '/img/things/eye/v2-yellow-red-2.png',
-  link: 'https://lilianzlettuce.github.io/ad417',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: '',
-  img: '/img/things/eye/rgby.png',
-  link: 'https://lilianzlettuce.github.io/ad417',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: '',
-  img: '/img/things/eye/v3-cym.png',
-  link: 'https://lilianzlettuce.github.io/ad417',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: '',
-  img: '/img/things/eye/v3-pastel-by.png',
-  link: 'https://lilianzlettuce.github.io/ad417',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: '',
-  img: '/img/things/eye/v3-py-2.png',
-  link: 'https://lilianzlettuce.github.io/ad417',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Saber - Golden',
-  img: '/img/things/p1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Saber - Double Rainbow',
-  img: '/img/things/double-rainbow.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Leaf of Absence',
-  img: '/img/things/laa-poster.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Banana Model',
-  img: '/img/things/banana-1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Tree Model',
-  img: '/img/things/3d-tree-1.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Lynn',
-  img: '/img/things/lynn.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Kinoko',
-  img: '/img/things/kinoko.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Shadow Boi Droy',
-  img: '/img/things/droy.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Shiloh',
-  img: '/img/things/shiloh.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}, {
-  title: 'Ren',
-  img: '/img/things/ren-bg.png',
-  link: 'https://lilianzlettuce.github.io/ad417/',
-  categories: ['dev', 'design'],
-  descrip: 'Interactive VR environment simulating the decay of the self.'
-}];
+import { things } from "../utils/data.js";
+//import { motion } from "framer-motion"
 
 var numThings = 6;
 var imgs = [];
 for (var i = 1; i <= numThings; i++) {
-  imgs.push('img/things/p' + i + '.png');
+  imgs.push("img/things/p" + i + ".png");
 }
 
 var Thing = function (_React$Component) {
@@ -224,27 +27,27 @@ var Thing = function (_React$Component) {
   }
 
   _createClass(Thing, [{
-    key: 'render',
+    key: "render",
     value: function render() {
       return React.createElement(
-        'div',
-        { className: 'stuff-container' },
+        "div",
+        { className: "stuff-container" },
         React.createElement(
-          'div',
-          { 'class': 'grid' },
-          React.createElement('div', { className: 'grid-sizer' }),
+          "div",
+          { "class": "grid" },
+          React.createElement("div", { className: "grid-sizer" }),
           things.map(function (thing, i) {
             return React.createElement(
-              'div',
-              { 'class': 'grid-item img-container' },
+              "div",
+              { "class": "grid-item img-container" },
               React.createElement(
-                'div',
-                { className: '' },
-                React.createElement('img', { src: thing.img, id: 'thing-img-' + i, loading: 'lazy' })
+                "div",
+                { className: "" },
+                React.createElement("img", { src: thing.img, id: "thing-img-" + i, loading: "lazy" })
               ),
               React.createElement(
-                'div',
-                { 'class': 'img-text', id: 'thing-img-text-' + i },
+                "div",
+                { "class": "img-text", id: "thing-img-text-" + i },
                 thing.title
               )
             );
