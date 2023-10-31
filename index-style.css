@@ -211,6 +211,11 @@ div{
     height: 40px;
 }
 
+#subgreeting {
+    /*font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
+    font-size: 2rem;*/
+}
+
 .lettuce {
     font-family: 'Gajraj One', sans-serif;
     font-family: 'Anton', sans-serif;
@@ -373,6 +378,11 @@ div{
     top: 200px;
     opacity: 0%;
     transition: top 1s, opacity 2s;
+    font-size: 1.8rem;
+
+    font-family: 'Arvo', 'Josefin Sans', 'Rokkitt', 'Sanchez';
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
 }
 
 #projects{
@@ -424,6 +434,14 @@ div{
 .title{
     font-size: 5rem;
     margin: 2rem 0rem;
+    
+    font-family: 'Arvo', 'Josefin Sans', 'Rokkitt', 'Sanchez';
+    font-family: 'Sometype Mono', monospace;
+    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Staatliches', sans-serif;
 }
 
 .type{
@@ -431,12 +449,16 @@ div{
     margin: 1.5rem 0rem;
     font-weight: 300;
     color:rgb(148, 148, 148);
+
+    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
 }
 
 .date{
     color: var(--cyan);
     font-weight: 400;
     margin: 1rem 0rem;
+
+    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
 }
 
 .award{
@@ -454,6 +476,8 @@ div{
 .descrip{
     font-weight: 300;
     margin: 0;
+    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
+    font-size: 1.4rem;
 }
 
 .image{

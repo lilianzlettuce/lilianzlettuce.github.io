@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('#projects-title').style.top = '200px'
             document.querySelector('#projects-title').style.opacity = '0%'
         } else {
-            document.querySelector('#projects-title').style.top = '-20px'
+            document.querySelector('#projects-title').style.top = '-70px'
             document.querySelector('#projects-title').style.opacity = '100%'
         }
 
