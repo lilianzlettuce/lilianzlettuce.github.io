@@ -198,15 +198,15 @@ document.addEventListener('DOMContentLoaded', () => {
     //data for each project container
     let projects = {
         atrophy: {
-            color: "white",
+            color: "var(--magenta)",
             currentDotNum: 1,
         },
         mlhacks: {
-            color: "rgb(255, 135, 249)",
+            color: "var(--magenta)",
             currentDotNum: 1,
         },
         cero: {
-            color: "var(--tomato)",
+            color: "var(--magenta)",
             currentDotNum: 1
         },
         bloog: {
