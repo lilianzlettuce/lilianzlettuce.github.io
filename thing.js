@@ -8,13 +8,21 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import { things } from "../utils/data.js";
-//import { motion } from "framer-motion"
+import { things, things2D } from "../utils/data.js";
 
-var numThings = 6;
-var imgs = [];
-for (var i = 1; i <= numThings; i++) {
-  imgs.push("img/things/p" + i + ".png");
+var host = window.location.host;
+var pathname = window.location.pathname;
+var url = host + pathname;
+
+var queryString = window.location.search;
+var urlParams = new URLSearchParams(queryString);
+
+var sort = urlParams.get('sort');
+
+// determine which things to show based on sort parameter
+var listedThings = things;
+if (sort == '2d') {
+  listedThings = things2D;
 }
 
 var Thing = function (_React$Component) {
@@ -27,27 +35,48 @@ var Thing = function (_React$Component) {
   }
 
   _createClass(Thing, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return React.createElement(
-        "div",
-        { className: "stuff-container" },
+        'div',
+        { className: 'stuff-container' },
         React.createElement(
-          "div",
-          { "class": "grid" },
-          React.createElement("div", { className: "grid-sizer" }),
-          things.map(function (thing, i) {
+          'div',
+          null,
+          React.createElement(
+            'a',
+            { className: 'sort-link' },
+            '2D'
+          ),
+          ' -',
+          React.createElement(
+            'a',
+            { className: 'sort-link' },
+            '3D'
+          ),
+          ' -',
+          React.createElement(
+            'a',
+            { className: 'sort-link' },
+            'interactive'
+          )
+        ),
+        React.createElement(
+          'div',
+          { 'class': 'grid' },
+          React.createElement('div', { className: 'grid-sizer' }),
+          listedThings.map(function (thing, i) {
             return React.createElement(
-              "div",
-              { "class": "grid-item img-container" },
+              'div',
+              { 'class': 'grid-item img-container' },
               React.createElement(
-                "div",
-                { className: "" },
-                React.createElement("img", { src: thing.img, id: "thing-img-" + i, loading: "lazy" })
+                'div',
+                { className: '' },
+                React.createElement('img', { src: thing.img, id: 'thing-img-' + i, loading: 'lazy' })
               ),
               React.createElement(
-                "div",
-                { "class": "img-text", id: "thing-img-text-" + i },
+                'div',
+                { 'class': 'img-text', id: 'thing-img-text-' + i },
                 thing.title
               )
             );

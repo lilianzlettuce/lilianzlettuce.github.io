@@ -1,11 +1,19 @@
 'use strict';
-import { things } from "../utils/data.js"
-//import { motion } from "framer-motion"
+import { things, things2D } from "../utils/data.js"
 
-const numThings = 6
-const imgs = [];
-for (let i = 1; i <= numThings; i++) {
-    imgs.push(`img/things/p${i}.png`);
+const host = window.location.host;
+const pathname = window.location.pathname;
+const url = host + pathname;
+
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+const sort = urlParams.get('sort')
+
+// determine which things to show based on sort parameter
+let listedThings = things;
+if (sort == '2d') {
+  listedThings = things2D
 }
 
 class Thing extends React.Component {
@@ -16,9 +24,14 @@ class Thing extends React.Component {
   render() {
     return (
       <div className="stuff-container">
+        <div>
+          <a className="sort-link">2D</a> - 
+          <a className="sort-link">3D</a> - 
+          <a className="sort-link">interactive</a>
+        </div>
         <div class="grid">
           <div className="grid-sizer"></div>
-          {things.map((thing, i) =>
+          {listedThings.map((thing, i) =>
             <div class="grid-item img-container">
               <div className="">
                 <img src={thing.img} id={`thing-img-${i}`} loading="lazy" />
