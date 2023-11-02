@@ -112,13 +112,13 @@ export const things = [
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
-  {
+  /*{
     title: 'Japan Street View - Shaded',
     img: '/img/things/japan1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
+  },*/
   {
     title: 'Unity Experiments - Toiletception',
     img: '/img/things/p5.png',
@@ -153,27 +153,6 @@ export const things = [
     link: 'https://lilianzlettuce.github.io/ad417',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v3-pastel-by.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v3-py-2.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-      title: 'Saber - Golden',
-      img: '/img/things/p1.png',
-      link: 'https://lilianzlettuce.github.io/ad417/',
-      categories: ['dev', 'design'],
-      descrip: 'Interactive VR environment simulating the decay of the self.',
   },
   {
     title: 'Saber - Double Rainbow',
@@ -256,6 +235,76 @@ export const things = [
 
 export const things2D = [
   {
+    title: '',
+    img: '/img/things/eye/v3-cym.png',
+    link: 'https://lilianzlettuce.github.io/ad417',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '',
+    img: '/img/things/eye/v3-py-2.png',
+    link: 'https://lilianzlettuce.github.io/ad417',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '',
+    img: '/img/things/eye/v3-pastel-by.png',
+    link: 'https://lilianzlettuce.github.io/ad417',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '',
+    img: '/img/things/eye/v2-yellow-red-2.png',
+    link: 'https://lilianzlettuce.github.io/ad417',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'what yellow\'s supposed to look like',
+    img: '/img/things/p2.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '',
+    img: '/img/things/eye/rgby.png',
+    link: 'https://lilianzlettuce.github.io/ad417',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Ren',
+    img: '/img/things/ren-bg.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Kinoko',
+    img: '/img/things/kinoko.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Lynn',
+    img: '/img/things/lynn.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Shiloh',
+    img: '/img/things/shiloh.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
     title: 'Japan Street View',
     img: '/img/things/p3.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
@@ -270,44 +319,9 @@ export const things2D = [
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
   {
-    title: 'what yellow\'s supposed to look like',
-    img: '/img/things/p2.png',
+    title: 'Shadow Boi Droy',
+    img: '/img/things/droy.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v2-yellow-red-2.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/rgby.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v3-cym.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v3-pastel-by.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '',
-    img: '/img/things/eye/v3-py-2.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
@@ -332,54 +346,12 @@ export const things2D = [
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
-  {
-    title: 'Lynn',
-    img: '/img/things/lynn.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'Ren',
-    img: '/img/things/ren-bg.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'Shadow Boi Droy',
-    img: '/img/things/droy.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'Kinoko',
-    img: '/img/things/kinoko.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'Shiloh',
-    img: '/img/things/shiloh.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  }
 ];
 
 export const things3D = [
   {
     title: 'Unity Experiments - Toiletception',
     img: '/img/things/p5.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'Banana Model',
-    img: '/img/things/banana-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -391,6 +363,20 @@ export const things3D = [
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },*/
+  {
+    title: '3D eye',
+    img: '/img/things/eye/3d-y4.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '3D eye',
+    img: '/img/things/eye/3d-r1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
   {
     title: 'teeth',
     img: '/img/things/teeth1.png',
@@ -406,15 +392,8 @@ export const things3D = [
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
   {
-    title: '3D eye',
-    img: '/img/things/eye/3d-y4.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: '3D eye',
-    img: '/img/things/eye/3d-r1.png',
+    title: 'Banana Model',
+    img: '/img/things/banana-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -479,6 +458,13 @@ export const things3D = [
 
 export const thingsInteractive = [
   {
+    title: 'Atrophy - An Artificial World',
+    img: '/img/things/purple3.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
     title: 'acryllic scene 2',
     img: '/img/things/acr-2.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
@@ -501,14 +487,14 @@ export const thingsInteractive = [
   },
   {
     title: 'hell plant 1',
-    img: '/img/things/hellplant-face-1.png',
+    img: '/img/things/hellplant-5.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
   {
     title: 'hell plant 1',
-    img: '/img/things/hellplant-5.png',
+    img: '/img/things/hellplant-face-1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
@@ -527,18 +513,4 @@ export const thingsInteractive = [
     categories: ['dev', 'design'],
     descrip: 'Interactive VR environment simulating the decay of the self.',
   },
-  {
-    title: 'Atrophy - An Artificial World',
-    img: '/img/things/purple3.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  },
-  {
-    title: 'Atrophy - An Artificial World',
-    img: '/img/things/purple1.png',
-    link: 'https://lilianzlettuce.github.io/ad417/',
-    categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
-  }
 ];

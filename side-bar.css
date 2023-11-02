@@ -11,6 +11,7 @@
     text-align: right;
 }
 #name:hover{
+    text-decoration: none;
     font-family: 'Pixelify Sans', sans-serif;
     font-weight: 800;
     color: var(--magenta);
@@ -110,6 +111,7 @@
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
+    text-decoration: none;
     font-weight: 800;
     background-color: var(--cyan);
     background-color: white;
