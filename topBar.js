@@ -59,7 +59,7 @@ var TopBar = function (_React$Component) {
                         React.createElement(
                             "a",
                             { className: "faded menu-link", id: "stuff-link", href: "https://lilianzlettuce.github.io/stuff" },
-                            "Stuff"
+                            "Gallery"
                         ),
                         React.createElement(
                             "a",

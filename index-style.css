@@ -376,6 +376,7 @@ div{
     top: 200px;
     opacity: 0%;
     transition: top 1s, opacity 2s;
+    font-size: 2.4rem;
 }
 
 #see-more-projects {
@@ -385,6 +386,7 @@ div{
     padding: 0;
     margin: 0 13rem;
     height: 20px;
+    font-size: 2.4rem;
 }
 
 #projects{
@@ -478,8 +480,8 @@ div{
 .descrip{
     font-weight: 300;
     margin: 0;
-    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
-    font-size: 1.4rem;
+    /*font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
+    font-size: 1.4rem;*/
 }
 
 .image{
