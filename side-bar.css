@@ -2,28 +2,19 @@
 
 #name{
     font-size: 2rem;
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 600;
     padding: 0px;
-    width: 150px;
+    width: 120px;
     height: 20px;
     position: relative;
     text-align: right;
 }
 #name:hover{
-    text-decoration: none;
-    font-family: 'Pixelify Sans', sans-serif;
-    font-weight: 800;
-    color: var(--magenta);
-    font-size: 3rem;
-    background-color: white;
-
-    /*font-family: 'Libre Barcode 128 Text', 'Pixelify Sans', sans-serif;
+    font-family: 'Libre Barcode 128 Text', 'Pixelify Sans', sans-serif;
     background-color: transparent;
-    top: 10px;
     height: fit-content;
-    font-size: 3.4rem;
-    color: white;*/
+    font-size: 2.8rem;
+    text-decoration: none;
 }
 
 .top-bar{
