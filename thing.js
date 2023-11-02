@@ -16,15 +16,24 @@ var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
 
 var sort = urlParams.get('sort');
+var classAll = '';
+var class2D = '';
+var class3D = '';
+var classI9E = '';
 
 // determine which things to show based on sort parameter
 var listedThings = things;
 if (sort == '2d') {
   listedThings = things2D;
+  class2D = 'selected';
 } else if (sort == '3d') {
   listedThings = things3D;
+  class3D = 'selected';
 } else if (sort == 'i9e') {
   listedThings = thingsInteractive;
+  classI9E = 'selected';
+} else {
+  classAll = 'selected';
 }
 
 var Thing = function (_React$Component) {
@@ -58,22 +67,22 @@ var Thing = function (_React$Component) {
           { className: 'sort-links' },
           React.createElement(
             'a',
-            { className: 'sort-link', href: '' + pathname },
+            { className: 'sort-link ' + classAll, href: '' + pathname },
             '\u2014all '
           ),
           React.createElement(
             'a',
-            { className: 'sort-link', href: pathname + '?sort=2d' },
+            { className: 'sort-link ' + class2D, href: pathname + '?sort=2d' },
             '\u20142D '
           ),
           React.createElement(
             'a',
-            { className: 'sort-link', href: pathname + '?sort=3d' },
+            { className: 'sort-link ' + class3D, href: pathname + '?sort=3d' },
             '\u20143D '
           ),
           React.createElement(
             'a',
-            { className: 'sort-link', href: pathname + '?sort=i93' },
+            { className: 'sort-link ' + classI9E, href: pathname + '?sort=i9e' },
             '\u2014interactive'
           )
         ),
