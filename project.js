@@ -27,6 +27,12 @@ var projects = [{
     categories: ['dev', 'design'],
     descrip: 'Website for ML Hacks, Bay Area\'s premier Machine Learning focused hackathon for female and nonbinary high school students.'
 }, {
+    title: 'Wooden Toy',
+    img: '/img/wooden-toy.png',
+    link: '',
+    categories: ['dev', 'design'],
+    descrip: 'Pacman themed wooden toy with laser-cut interactive parts. Designed and modeled with Autodesk Inventor.'
+}, {
     title: 'Cero',
     img: '/img/ceropic1.png',
     link: '',
