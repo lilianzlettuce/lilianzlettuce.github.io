@@ -11,6 +11,14 @@ body{
     color: var(--yellow);
 }
 
+#email-link {
+    color: var(--magenta);
+    font-weight: bold;
+}
+#email-link:hover {
+    color: var(--yellow);
+}
+
 #toilet-model {
     display: none;
 }
