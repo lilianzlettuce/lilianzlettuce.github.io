@@ -1,9 +1,7 @@
 'use strict';
-import { things, things2D } from "../utils/data.js"
+import { things, things2D, things3D, thingsInteractive } from "../utils/data.js"
 
-const host = window.location.host;
 const pathname = window.location.pathname;
-const url = host + pathname;
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -14,6 +12,10 @@ const sort = urlParams.get('sort')
 let listedThings = things;
 if (sort == '2d') {
   listedThings = things2D
+} else if (sort == '3d') {
+  listedThings = things3D
+} else if (sort == 'interactive') {
+  listedThings = thingsInteractive
 }
 
 class Thing extends React.Component {
@@ -24,10 +26,13 @@ class Thing extends React.Component {
   render() {
     return (
       <div className="stuff-container">
-        <div>
-          <a className="sort-link">2D</a> - 
-          <a className="sort-link">3D</a> - 
-          <a className="sort-link">interactive</a>
+        <div class="page-title" id="top">stuff</div>
+        <div>= <br/> collection of my experimental works, unfinished scraps, and miscellaneous art ↓</div>
+        <div className="sort-links">
+          <a className="sort-link" href={`${pathname}`}>—all </a> 
+          <a className="sort-link" href={`${pathname}?sort=2d`}>—2D </a> 
+          <a className="sort-link" href={`${pathname}?sort=3d`}>—3D </a> 
+          <a className="sort-link" href={`${pathname}?sort=interactive`}>—interactive</a>
         </div>
         <div class="grid">
           <div className="grid-sizer"></div>

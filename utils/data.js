@@ -368,3 +368,177 @@ export const things2D = [
     descrip: 'Interactive VR environment simulating the decay of the self.',
   }
 ];
+
+export const things3D = [
+  {
+    title: 'Unity Experiments - Toiletception',
+    img: '/img/things/p5.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Banana Model',
+    img: '/img/things/banana-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  /*{
+    title: 'Tree Model',
+    img: '/img/things/3d-tree-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },*/
+  {
+    title: 'teeth',
+    img: '/img/things/teeth1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'snivy2',
+    img: '/img/things/snivy3.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '3D eye',
+    img: '/img/things/eye/3d-y4.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: '3D eye',
+    img: '/img/things/eye/3d-r1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'acryllic scene 2',
+    img: '/img/things/acr-2.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'acryllic scene 3',
+    img: '/img/things/acr-3.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'hell plant 1',
+    img: '/img/things/hellplant-face-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'hell plant 1',
+    img: '/img/things/hellplant-5.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Potty Simulator 1000',
+    img: '/img/things/ps-2.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Potty Simulator 1000',
+    img: '/img/things/ps-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Atrophy - An Artificial World',
+    img: '/img/things/purple3.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Atrophy - An Artificial World',
+    img: '/img/things/purple1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+];
+
+export const thingsInteractive = [
+  {
+    title: 'acryllic scene 2',
+    img: '/img/things/acr-2.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'acryllic scene 3',
+    img: '/img/things/acr-3.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'face 2',
+    img: '/img/things/face-a1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'hell plant 1',
+    img: '/img/things/hellplant-face-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'hell plant 1',
+    img: '/img/things/hellplant-5.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Potty Simulator 1000',
+    img: '/img/things/ps-2.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Potty Simulator 1000',
+    img: '/img/things/ps-1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Atrophy - An Artificial World',
+    img: '/img/things/purple3.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  },
+  {
+    title: 'Atrophy - An Artificial World',
+    img: '/img/things/purple1.png',
+    link: 'https://lilianzlettuce.github.io/ad417/',
+    categories: ['dev', 'design'],
+    descrip: 'Interactive VR environment simulating the decay of the self.',
+  }
+];

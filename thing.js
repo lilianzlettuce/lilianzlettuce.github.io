@@ -8,11 +8,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-import { things, things2D } from "../utils/data.js";
+import { things, things2D, things3D, thingsInteractive } from "../utils/data.js";
 
-var host = window.location.host;
 var pathname = window.location.pathname;
-var url = host + pathname;
 
 var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
@@ -23,6 +21,10 @@ var sort = urlParams.get('sort');
 var listedThings = things;
 if (sort == '2d') {
   listedThings = things2D;
+} else if (sort == '3d') {
+  listedThings = things3D;
+} else if (sort == 'interactive') {
+  listedThings = thingsInteractive;
 }
 
 var Thing = function (_React$Component) {
@@ -42,23 +44,38 @@ var Thing = function (_React$Component) {
         { className: 'stuff-container' },
         React.createElement(
           'div',
+          { 'class': 'page-title', id: 'top' },
+          'stuff'
+        ),
+        React.createElement(
+          'div',
           null,
+          '= ',
+          React.createElement('br', null),
+          ' collection of my experimental works, unfinished scraps, and miscellaneous art \u2193'
+        ),
+        React.createElement(
+          'div',
+          { className: 'sort-links' },
           React.createElement(
             'a',
-            { className: 'sort-link' },
-            '2D'
+            { className: 'sort-link', href: '' + pathname },
+            '\u2014all '
           ),
-          ' -',
           React.createElement(
             'a',
-            { className: 'sort-link' },
-            '3D'
+            { className: 'sort-link', href: pathname + '?sort=2d' },
+            '\u20142D '
           ),
-          ' -',
           React.createElement(
             'a',
-            { className: 'sort-link' },
-            'interactive'
+            { className: 'sort-link', href: pathname + '?sort=3d' },
+            '\u20143D '
+          ),
+          React.createElement(
+            'a',
+            { className: 'sort-link', href: pathname + '?sort=interactive' },
+            '\u2014interactive'
           )
         ),
         React.createElement(
