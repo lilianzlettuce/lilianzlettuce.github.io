@@ -23,7 +23,7 @@ if (sort == '2d') {
   listedThings = things2D;
 } else if (sort == '3d') {
   listedThings = things3D;
-} else if (sort == 'interactive') {
+} else if (sort == 'i9e') {
   listedThings = thingsInteractive;
 }
 
@@ -45,14 +45,13 @@ var Thing = function (_React$Component) {
         React.createElement(
           'div',
           { 'class': 'page-title', id: 'top' },
-          'stuff'
+          sort,
+          ' stuff'
         ),
         React.createElement(
           'div',
           null,
-          '= ',
-          React.createElement('br', null),
-          ' collection of my experimental works, unfinished scraps, and miscellaneous art \u2193'
+          'collection of my experimental works, unfinished scraps, and miscellaneous art \u2193'
         ),
         React.createElement(
           'div',
@@ -74,7 +73,7 @@ var Thing = function (_React$Component) {
           ),
           React.createElement(
             'a',
-            { className: 'sort-link', href: pathname + '?sort=interactive' },
+            { className: 'sort-link', href: pathname + '?sort=i93' },
             '\u2014interactive'
           )
         ),

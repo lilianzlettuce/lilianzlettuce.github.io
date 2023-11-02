@@ -14,7 +14,7 @@ if (sort == '2d') {
   listedThings = things2D
 } else if (sort == '3d') {
   listedThings = things3D
-} else if (sort == 'interactive') {
+} else if (sort == 'i9e') {
   listedThings = thingsInteractive
 }
 
@@ -26,13 +26,13 @@ class Thing extends React.Component {
   render() {
     return (
       <div className="stuff-container">
-        <div class="page-title" id="top">stuff</div>
-        <div>= <br/> collection of my experimental works, unfinished scraps, and miscellaneous art ↓</div>
+        <div class="page-title" id="top">{sort} stuff</div>
+        <div>collection of my experimental works, unfinished scraps, and miscellaneous art ↓</div>
         <div className="sort-links">
           <a className="sort-link" href={`${pathname}`}>—all </a> 
           <a className="sort-link" href={`${pathname}?sort=2d`}>—2D </a> 
           <a className="sort-link" href={`${pathname}?sort=3d`}>—3D </a> 
-          <a className="sort-link" href={`${pathname}?sort=interactive`}>—interactive</a>
+          <a className="sort-link" href={`${pathname}?sort=i93`}>—interactive</a>
         </div>
         <div class="grid">
           <div className="grid-sizer"></div>
