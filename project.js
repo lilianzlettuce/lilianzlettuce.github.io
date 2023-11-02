@@ -13,7 +13,7 @@ var projects = [{
     img: '/img/atrophypic1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
     categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.'
+    descrip: 'Interactive VR environment simulating the decay of the self. Accessible online via web.'
 }, {
     title: 'Purdue Hackers Landing Page',
     img: '/img/phpic2.png',
@@ -65,17 +65,29 @@ var projects = [{
     date: 'July 2020',
     descrip: 'Browser-based version of the classic 2048 game built with Javascript and HTML/CSS to include original styling and various themes.'
 }, {
-    title: 'Tetris',
-    img: '/img/tetrispic2.png',
-    link: 'https://lilianzlettuce.github.io/tetris',
+    title: 'Escape Room',
+    img: '/img/escaperoompic1.png',
+    link: 'https://lilianzlettuce.github.io/escapeRoom',
     categories: ['dev', 'design'],
-    descrip: 'Tetris remade.'
+    descrip: 'Online escape room featuring the nonsensical \"logic\" puzzles of my deranged high-schooler mind.'
 }, {
     title: 'Space Guy',
     img: '/img/spaceguypic2.png',
     link: '',
     categories: ['dev', 'design'],
     descrip: '2D space-themed platformer created with a team of 5 using Unity.'
+}, {
+    title: 'Wooden Toy',
+    img: '/img/wooden-toy.png',
+    link: '',
+    categories: ['dev', 'design'],
+    descrip: 'Pacman themed wooden toy with laser-cut interactive parts. Designed and modeled with Autodesk Inventor.'
+}, {
+    title: 'Tetris',
+    img: '/img/tetrispic2.png',
+    link: 'https://lilianzlettuce.github.io/tetris',
+    categories: ['dev', 'design'],
+    descrip: 'Tetris remade.'
 }, {
     title: 'Veracity',
     img: '/img/veracitypic3.png',
@@ -88,18 +100,6 @@ var projects = [{
     link: '',
     categories: ['dev', 'design'],
     descrip: 'Design for a sleep tracking web app.'
-}, {
-    title: 'Escape Room',
-    img: '/img/escaperoompic1.png',
-    link: 'https://lilianzlettuce.github.io/escapeRoom',
-    categories: ['dev', 'design'],
-    descrip: 'Online escape room featuring the nonsensical \"logic\" puzzles of my deranged high-schooler mind.'
-}, {
-    title: 'Wooden Toy',
-    img: '/img/wooden-toy.png',
-    link: '',
-    categories: ['dev', 'design'],
-    descrip: 'Pacman themed wooden toy with laser-cut interactive parts. Designed and modeled with Autodesk Inventor.'
 }];
 
 var Project = function (_React$Component) {
