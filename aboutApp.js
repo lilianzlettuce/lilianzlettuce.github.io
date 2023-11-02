@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     //animate icons
-    let color = 'black'
+    let color = 'white'
     for (let i = 1; i < 5; i++) {
         document.querySelector(`#c${i}`).addEventListener("click", () => {
-            if (color === 'black') {
-                color = 'rgb(134, 173, 255)'
-            } else if (color === 'rgb(134, 173, 255)') {
-                color = 'tomato'
+            if (color === 'white') {
+                color = 'var(--cyan)'
+            } else if (color === 'var(--cyan)') {
+                color = 'var(--magenta)'
             } else {
-                color = 'black'
+                color = 'white'
             }
             for (let j = i; j < 5; j++) {
                 setTimeout(() => {
