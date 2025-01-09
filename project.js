@@ -9,6 +9,12 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var projects = [{
+    title: 'Becoming',
+    img: '/img/becoming1.jpg',
+    link: 'https://youtu.be/WGYg-UNLEUU',
+    categories: ['dev', 'design'],
+    descrip: 'Audio visualizer that responds to both interaction through a custom-built device and sound detected from the surrounding environment. Built with Arduino and Processing.'
+}, {
     title: 'Atrophy: Graveyard of My Fallen Heroes',
     img: '/img/atrophypic1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',
@@ -122,7 +128,7 @@ var Project = function (_React$Component) {
                         'a',
                         {
                             target: '_blank',
-                            className: 'project-container',
+                            className: 'project-container project-container-link',
                             key: project.title,
                             id: project.title + "PC",
                             href: project.link

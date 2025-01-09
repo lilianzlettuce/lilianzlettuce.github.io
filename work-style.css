@@ -90,7 +90,14 @@ body {
 .project-container:hover,
 .project-container:active,
 .project-container:focus {
-    /*cursor: pointer;*/
+    color: var(--gray);
+    border-color: var(--gray);
+    text-decoration: none;
+}
+
+.project-container-link:hover,
+.project-container-link:active,
+.project-container-link:focus {
     color: var(--magenta);
     border-color: var(--magenta);
     text-decoration: none;

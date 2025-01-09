@@ -2,6 +2,13 @@
 
 const projects = [
     {
+        title: 'Becoming',
+        img: '/img/becoming1.jpg',
+        link: 'https://youtu.be/WGYg-UNLEUU',
+        categories: ['dev', 'design'],
+        descrip: 'Audio visualizer that responds to both interaction through a custom-built device and sound detected from the surrounding environment. Built with Arduino and Processing.',
+    },
+    {
         title: 'Atrophy: Graveyard of My Fallen Heroes',
         img: '/img/atrophypic1.png',
         link: 'https://lilianzlettuce.github.io/ad417/',
@@ -128,7 +135,7 @@ class Project extends React.Component {
             project.link ? 
             <a 
                 target="_blank"
-                className="project-container" 
+                className="project-container project-container-link" 
                 key={project.title} 
                 id={project.title + "PC"}
                 href={project.link}
