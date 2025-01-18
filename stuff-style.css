@@ -126,9 +126,6 @@ img {
     width: calc(100% - 2 * var(--img-grid-gap));
     height: calc(100% - 2.5 * var(--img-grid-gap));
     visibility: hidden; 
-    background-color: rgba(0, 162, 255, 0.54);
-    background-color: transparent;
-    background-color: #33333340; 
     background-color: rgba(255, 0, 255, 0.575);
     color: #fff; 
     text-align: center;
