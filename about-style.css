@@ -76,11 +76,11 @@ div{
 
 .about{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     padding: 0% 6%;
     margin-bottom: 240px;
 }
-
 .about-container-1{
     color: var(--text-color);
     width: 60%;
@@ -96,7 +96,6 @@ div{
         opacity: 1;
     }
 }
-
 .about-container-2{
     width: 40%;
     height: calc(600px / 1vw);
@@ -104,6 +103,17 @@ div{
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
+}
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-container-1 {
+        width: 100%;
+    }
+    .about-container-2 {
+        width: 100%;
+    }
 }
 
 #list-container{
@@ -117,8 +127,14 @@ div{
 
 #list-cols{
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+}
+@media (max-width: 500px) {
+    #list-cols{
+        flex-direction: column;
+    }
 }
 
 .icon{
