@@ -15,6 +15,12 @@ var projects = [{
     categories: ['dev', 'design'],
     descrip: 'Audio visualizer that responds to both interaction through a custom-built device and sound detected from the surrounding environment. Built with Arduino and Processing.'
 }, {
+    title: 'ChipIn',
+    img: '',
+    link: '',
+    categories: ['dev', 'design'],
+    descrip: 'hi'
+}, {
     title: 'Atrophy: Graveyard of My Fallen Heroes',
     img: '/img/atrophypic1.png',
     link: 'https://lilianzlettuce.github.io/ad417/',

@@ -6,6 +6,9 @@ body {
     font-family: 'Sometype Mono', monospace;
     font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
     font-size: 1.4rem;
+
+    /* Variable for grid gap */
+    --img-grid-gap: 5px;
 }
 
 #stuff-link {
@@ -85,7 +88,7 @@ body {
 .grid-item { 
     width: 33%; 
     height: auto;
-    padding: 5px;
+    padding: var(--img-grid-gap);
 }
 @media (max-width: 770px) {
     .grid-sizer,
@@ -99,10 +102,10 @@ body {
 
 .stuff-container {
     width: 83vw;
-    padding: 15px;
+    padding: 10px;
 }
 
-.img-container {
+.card-container {
     position: relative;
     text-align: center;
     color: white;
@@ -111,13 +114,37 @@ img {
     width: 100%;
     height: auto;
 }
-.img-text {
+img:hover {
+    filter: blur(8px);
+}
+
+/* Hover overlay for images */ 
+.img-overlay {
+    width: calc(100% - 2 * var(--img-grid-gap));
+    height: calc(100% - 2.5 * var(--img-grid-gap));
+    visibility: hidden; 
+    background-color: #333333a4; 
+    background-color: rgba(0, 162, 255, 0.54);
+    background-color: rgba(255, 0, 217, 0.54);
+    color: #fff; 
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: inherit;
     position: absolute;
-    top: 50%;
+    z-index: 10;
+    top: var(--img-grid-gap); 
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: auto;
-    color: transparent;
-    display: none;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container:hover .img-overlay {
+    visibility: visible;
+    opacity: 1;
 }

@@ -93,16 +93,16 @@ var Thing = function (_React$Component) {
           listedThings.map(function (thing, i) {
             return React.createElement(
               'div',
-              { 'class': 'grid-item img-container' },
+              { 'class': 'grid-item card-container' },
               React.createElement(
                 'div',
-                { className: '' },
-                React.createElement('img', { src: thing.img, id: 'thing-img-' + i, loading: 'lazy' })
-              ),
-              React.createElement(
-                'div',
-                { 'class': 'img-text', id: 'thing-img-text-' + i },
-                thing.title
+                { className: 'img-container' },
+                React.createElement('img', { src: thing.img, id: 'thing-img-' + i, loading: 'lazy' }),
+                React.createElement(
+                  'div',
+                  { 'class': 'img-overlay', id: 'thing-img-text-' + i },
+                  thing.title
+                )
               )
             );
           })
