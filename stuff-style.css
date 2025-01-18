@@ -118,8 +118,7 @@ img {
     filter: blur(8px);
 }
 .img-link:hover {
-    color: white;
-    color: var(--lettuce);
+    background-color: white;
 }
 
 /* Hover overlay for images */ 
@@ -130,7 +129,7 @@ img {
     background-color: rgba(0, 162, 255, 0.54);
     background-color: transparent;
     background-color: #33333340; 
-    background-color: rgba(255, 0, 217, 0.357);
+    background-color: rgba(255, 0, 255, 0.575);
     color: #fff; 
     text-align: center;
     padding: 4px 8px;
