@@ -16,10 +16,10 @@ var projects = [{
     descrip: 'Audio visualizer that responds to both interaction through a custom-built device and sound detected from the surrounding environment. Built with Arduino and Processing.'
 }, {
     title: 'ChipIn',
-    img: '',
+    img: '/img/chipin1.png',
     link: '',
     categories: ['dev', 'design'],
-    descrip: 'hi'
+    descrip: 'Household management app that streamlines shared inventory tracking, expense splitting, AI-optimized meal ideas, and other collaborative tools. Built with a group of 4 for Software Engineering I.'
 }, {
     title: 'Atrophy: Graveyard of My Fallen Heroes',
     img: '/img/atrophypic1.png',

@@ -10,10 +10,10 @@ const projects = [
     },
     {
         title: 'ChipIn',
-        img: '',
+        img: '/img/chipin1.png',
         link: '',
         categories: ['dev', 'design'],
-        descrip: 'hi',
+        descrip: 'Household management app that streamlines shared inventory tracking, expense splitting, AI-optimized meal ideas, and other collaborative tools. Built with a group of 4 for Software Engineering I.',
     },
     {
         title: 'Atrophy: Graveyard of My Fallen Heroes',
