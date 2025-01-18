@@ -111,10 +111,10 @@ var Thing = function (_React$Component) {
                     null,
                     thing.descrip
                   ),
-                  React.createElement(
+                  thing.link && React.createElement(
                     'a',
-                    { href: thing.link, target: '_blank' },
-                    'view project'
+                    { className: 'img-link', href: thing.link, target: '_blank' },
+                    'view \u2192'
                   )
                 )
               )

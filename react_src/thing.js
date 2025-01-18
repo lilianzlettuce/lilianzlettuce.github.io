@@ -52,7 +52,9 @@ class Thing extends React.Component {
                 <div class="img-overlay">
                   <p>{thing.title}</p>
                   <p>{thing.descrip}</p>
-                  <a href={thing.link} target="_blank">view project</a>
+                  {thing.link &&
+                    <a className="img-link" href={thing.link} target="_blank">view →</a>
+                  }
                 </div>
               </div>
             </div>

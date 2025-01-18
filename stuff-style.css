@@ -117,6 +117,10 @@ img {
 img:hover {
     filter: blur(8px);
 }
+.img-link:hover {
+    color: white;
+    color: var(--lettuce);
+}
 
 /* Hover overlay for images */ 
 .img-overlay {
