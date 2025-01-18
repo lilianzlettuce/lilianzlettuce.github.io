@@ -228,25 +228,25 @@ export const things = [
 
 export const things2D = [
   {
-    title: '',
+    title: 'See No Evil - 2D',
     img: '/img/things/eye/v3-cym.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
+    link: '',
     categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
+    descrip: 'Processing',
   },
   {
-    title: '',
+    title: 'See No Evil - 2D',
     img: '/img/things/eye/v3-py-2.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
+    link: '',
     categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
+    descrip: 'Processing',
   },
   {
-    title: '',
+    title: 'See No Evil - 2D',
     img: '/img/things/eye/v3-pastel-by.png',
-    link: 'https://lilianzlettuce.github.io/ad417',
+    link: '',
     categories: ['dev', 'design'],
-    descrip: 'Interactive VR environment simulating the decay of the self.',
+    descrip: 'Processing',
   },
   {
     title: '',
