@@ -49,8 +49,10 @@ class Thing extends React.Component {
             <div class="grid-item card-container">
               <div className="img-container">
                 <img src={thing.img} id={`thing-img-${i}`} loading="lazy" />
-                <div class="img-overlay" id={`thing-img-text-${i}`}>
-                  {thing.title}
+                <div class="img-overlay">
+                  <p>{thing.title}</p>
+                  <p>{thing.descrip}</p>
+                  <a href={thing.link} target="_blank">view project</a>
                 </div>
               </div>
             </div>

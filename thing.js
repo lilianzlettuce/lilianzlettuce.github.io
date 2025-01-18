@@ -100,8 +100,22 @@ var Thing = function (_React$Component) {
                 React.createElement('img', { src: thing.img, id: 'thing-img-' + i, loading: 'lazy' }),
                 React.createElement(
                   'div',
-                  { 'class': 'img-overlay', id: 'thing-img-text-' + i },
-                  thing.title
+                  { 'class': 'img-overlay' },
+                  React.createElement(
+                    'p',
+                    null,
+                    thing.title
+                  ),
+                  React.createElement(
+                    'p',
+                    null,
+                    thing.descrip
+                  ),
+                  React.createElement(
+                    'a',
+                    { href: thing.link, target: '_blank' },
+                    'view project'
+                  )
                 )
               )
             );
