@@ -11,7 +11,7 @@ const projects = [
     {
         title: 'ChipIn',
         img: '/img/chipin1.png',
-        link: '',
+        link: 'https://github.com/lilianzlettuce/chip-in',
         categories: ['dev', 'design'],
         descrip: 'Household management app that streamlines shared inventory tracking, expense splitting, AI-optimized meal ideas, and other collaborative tools. Built with a group of 4 for Software Engineering I.',
     },
