@@ -1,8 +1,6 @@
 body {
     font-family: 'Agbalumo', 'Arvo', 'Josefin Sans', 'Rokkitt', 'Sanchez';
     font-family: 'Fira Mono', 'Noto Sans Mono', 'Sometype Mono', monospace;
-    font-family: 'Sometype Mono', monospace;
-    font-family: 'Noto Sans Mono', 'Sometype Mono', monospace;
     font-size: 1.4rem;
 }
 
@@ -120,4 +118,20 @@ img {
 .project-descrip {
     padding: 0;
     margin: 0;
+    font-size: 1.3rem;
+}
+
+.award {
+    color: var(--magenta);
+    color: white;
+    text-decoration: underline 2px var(--magenta);
+    font-family: monospace;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.project-container-link:hover .award,
+.project-container-link:active .award,
+.project-container-link:focus .award {
+    color: white;
+    text-decoration-style: dotted;
 }
