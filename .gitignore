@@ -1,0 +1,13 @@
+# Mac OS
+.DS_Store
+.nojekyll
+
+# VSCode
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# node
+node_modules/
